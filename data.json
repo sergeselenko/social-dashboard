@@ -1,0 +1,575 @@
+{
+ "updatedLabel": "Thu, Nov 5, 2026 \u00b7 12:05 PM ET",
+ "postsDateLabel": "Wednesday, Nov 4",
+ "postsFoot": "Story shares (Instagram/Facebook Stories on Nov 4) are tracked separately and are not credited to these posts' own performance in the ~Nov 13 plan verdict.",
+ "channels": [
+  {
+   "id": "instagram",
+   "name": "Instagram",
+   "handle": "@serge.osaulenko",
+   "color": "#d62976",
+   "followers": null,
+   "fDelta": null,
+   "followersNote": null,
+   "views": 3681,
+   "viewsText": null,
+   "viewsLabel": "Views \u00b7 Nov 5",
+   "eng": null,
+   "posts": 8,
+   "trend": [
+    1828,
+    2119,
+    2454,
+    2789,
+    2939,
+    3202,
+    3681
+   ],
+   "trendLabel": "Views \u00b7 daily",
+   "about": "Reels, the morning setup carousel, and Stories. The carousel and the evening video both land here daily; Facebook copies arrive via a manual Instagram share.",
+   "note": "Postiz channel level (30 day query): Views 3681, Likes 60, Comments 5, Shares 3, Saves 5, Replies 0 on Nov 5. Reach daily series: 150 on Nov 3 (revised from 149), 237 on Nov 4 (Nov 4 is the newest Reach date reported). Follower Count gains: 0 on Nov 3, 0 on Nov 4.",
+   "recent": [
+    {
+     "t": "The three connections setup carousel",
+     "when": "Tue, Nov 3",
+     "views": 69,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "The Family Dashboard That Runs Our House",
+     "when": "Sun, Nov 1",
+     "views": 161,
+     "likes": 3,
+     "comments": 0,
+     "shares": 1,
+     "saves": 1
+    },
+    {
+     "t": "Give your AI a memory in 5 steps",
+     "when": "Sun, Nov 1",
+     "views": 158,
+     "likes": 2,
+     "comments": 3,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "5 things our family agent does before we wake up",
+     "when": "Sat, Oct 31",
+     "views": 211,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    }
+   ]
+  },
+  {
+   "id": "linkedin",
+   "name": "LinkedIn \u2014 personal",
+   "handle": "Serge Osaulenko",
+   "color": "#0a66c2",
+   "followers": null,
+   "fDelta": null,
+   "followersNote": null,
+   "views": null,
+   "viewsText": "Post 2: 41 impressions",
+   "viewsLabel": "In-app read \u00b7 Oct 30",
+   "eng": null,
+   "posts": 11,
+   "trend": null,
+   "trendLabel": null,
+   "about": "Lead surface: the morning carousel and the evening video both post here on production days, as two differentiated posts. Native video uploads only. Postiz returns no analytics for the personal profile \u2014 figures are read manually in the LinkedIn app.",
+   "note": "Postiz returns no analytics for the personal profile (empty result), so numbers are read in LinkedIn itself, weekly. First read Fri Oct 30, 2026 (~4:05 PM ET): Post 2 (Oct 28) 41 impressions, 0 engagement; Consultant announcement (Oct 28) 26 impressions, 1 reaction; Episode 1 (Oct 29) 25 impressions, 10 video views, 1 comment (own); story post (Oct 30, ~5h old) 1 impression and 1 Save. Audience confirmed public by behavior (out-of-network impressions on all four; Post 2 viewable as a guest). Full record: ~/workspace/social-presence/LINKEDIN-PERSONAL-READS.md.",
+   "recent": [
+    {
+     "t": "HVAC gap check",
+     "when": "Wed, Nov 4",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "The three connections setup carousel",
+     "when": "Tue, Nov 3",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Compaction card",
+     "when": "Mon, Nov 2",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "The same database idea runs our house",
+     "when": "Mon, Nov 2",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    }
+   ]
+  },
+  {
+   "id": "linkedin-page",
+   "name": "LinkedIn Selenko business page",
+   "handle": "Selenko Page",
+   "color": "#0a66c2",
+   "followers": null,
+   "fDelta": null,
+   "followersNote": null,
+   "views": 0,
+   "viewsText": null,
+   "viewsLabel": "Page Views \u00b7 Nov 4",
+   "eng": null,
+   "posts": 12,
+   "trend": [
+    4,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0
+   ],
+   "trendLabel": "Page Views \u00b7 daily",
+   "about": "Mirrors the personal profile's production slate \u2014 morning carousel and evening video on production days.",
+   "note": "Page Views were 4 on Oct 31, then 0 on Nov 1, Nov 2, Nov 3, and Nov 4 (Nov 4 is the newest date reported). On Nov 4: Clicks 0, Shares 0, Engagement 0, Comments 0.",
+   "recent": [
+    {
+     "t": "HVAC gap check",
+     "when": "Wed, Nov 4",
+     "views": 8,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "The three connections setup carousel",
+     "when": "Tue, Nov 3",
+     "views": null,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Compaction card",
+     "when": "Mon, Nov 2",
+     "views": 2,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "The Family Dashboard That Runs Our House",
+     "when": "Sun, Nov 1",
+     "views": null,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    }
+   ]
+  },
+  {
+   "id": "facebook-page",
+   "name": "Facebook Selenko business page",
+   "handle": "Selenko Page",
+   "color": "#1877f2",
+   "followers": null,
+   "fDelta": null,
+   "followersNote": null,
+   "views": 591,
+   "viewsText": null,
+   "viewsLabel": "Page Impressions \u00b7 Nov 5",
+   "eng": null,
+   "posts": 9,
+   "trend": [
+    0,
+    215,
+    195,
+    40,
+    234,
+    333,
+    811,
+    591,
+    54
+   ],
+   "trendLabel": "Page Impressions \u00b7 daily",
+   "about": "Posts arrive via a manual Instagram share (auto-share is unreliable). Page posts are also shared to the Page's own story.",
+   "note": "Page Impressions: 811 on Nov 4, 591 on Nov 5 (revised up from the 75 partial point stored earlier), and 54 on Nov 6 as reported by Postiz (dates recorded exactly as reported; Nov 6 is a partial point). On Nov 5: Media views 691, Posts Engagement 14, Page followers 0. On Nov 6: Media views 67, Posts Engagement 2, Page followers 0.",
+   "recent": [
+    {
+     "t": "The three connections setup carousel",
+     "when": "Tue, Nov 3",
+     "views": 2,
+     "likes": 0,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Compaction card",
+     "when": "Mon, Nov 2",
+     "views": 2,
+     "likes": 0,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "The Family Dashboard That Runs Our House",
+     "when": "Sun, Nov 1",
+     "views": 251,
+     "likes": 0,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "The family dashboard, in 6 steps",
+     "when": "Sun, Nov 1",
+     "views": 2,
+     "likes": 0,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    }
+   ]
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "handle": "@serge.osaulenko",
+   "color": "#8a8f98",
+   "followers": null,
+   "fDelta": null,
+   "followersNote": null,
+   "views": 1100,
+   "viewsText": null,
+   "viewsLabel": "Account Views (Postiz)",
+   "eng": null,
+   "posts": 4,
+   "trend": [
+    743,
+    853,
+    891,
+    992,
+    1059,
+    1071,
+    1100
+   ],
+   "trendLabel": "Account Views (Postiz) \u00b7 daily",
+   "about": "Evening videos only, posted as direct posts so a chosen cover frame can be set from the posting sheet's timestamp.",
+   "note": "The 1100 is Postiz's account-level Views figure dated Nov 5, aggregated across all videos. It is NOT any single video's count. Channel level on Nov 5: Recent Likes 3, Recent Comments 1, Recent Shares 0. Per-video numbers come only from per-post analytics: Episode 1 redo is 119 views, Episode 3 is 37 views, Post 2 is 154 views, and the Consultant announcement is 106 views. Episode 2's Postiz per-post analytics returned empty again this pull, so its stored figures were left as-is. The Family Dashboard tutorial's live TikTok copy is Serge's manual keyword-edition repost (not a Postiz post), so that row is left as-is. The Nov 4 and Nov 5 episodes posted through Postiz have no dashboard post entries yet, so their per-post stats were not written.",
+   "recent": [
+    {
+     "t": "The Family Dashboard That Runs Our House",
+     "when": "Sun, Nov 1",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "At 6:45, My Phone Hands Me My Day",
+     "when": "Sat, Oct 31",
+     "views": 37,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Your AI Has a Desk, Not a Filing Cabinet",
+     "when": "Fri, Oct 30",
+     "views": 106,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Series Episode 1 \u2014 \u201cOut of the jar\u201d",
+     "when": "Thu, Oct 29",
+     "views": 119,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    }
+   ]
+  },
+  {
+   "id": "youtube",
+   "name": "YouTube",
+   "handle": "@sergeosaulenko",
+   "color": "#e62117",
+   "followers": 30,
+   "fDelta": null,
+   "followersNote": "30 subscribers \u00b7 +2 in last 28 days",
+   "views": 118,
+   "viewsText": null,
+   "viewsLabel": "Estimated Minutes Watched \u00b7 Nov 2",
+   "eng": null,
+   "posts": 4,
+   "trend": [
+    16,
+    87,
+    40,
+    1,
+    29,
+    79,
+    89,
+    118
+   ],
+   "trendLabel": "Estimated Minutes Watched \u00b7 daily",
+   "about": "Shorts post through YouTube Studio while the Postiz connection is down; the 'Selenko Uploads' Google Cloud route is in setup. Designed covers are set manually in Studio.",
+   "note": "Postiz daily series now runs through Nov 2 (platform data lags about 2 days). Estimated Minutes Watched: 89 on Nov 1, 118 on Nov 2. Average View Duration 163 and Average View Percentage 193.33 on Nov 2; Subscribers Gained 0 and Likes 0 on Nov 2.",
+   "recent": [
+    {
+     "t": "The Family Dashboard That Runs Our House",
+     "when": "Sun, Nov 1",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "At 6:45, My Phone Hands Me My Day",
+     "when": "Sat, Oct 31",
+     "views": 46,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Your AI Has a Desk, Not a Filing Cabinet",
+     "when": "Fri, Oct 30",
+     "views": 245,
+     "likes": 3,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Series Episode 1 \u2014 \u201cOut of the jar\u201d",
+     "when": "Thu, Oct 29",
+     "views": 8,
+     "likes": 0,
+     "comments": 1,
+     "shares": null,
+     "saves": null
+    }
+   ]
+  },
+  {
+   "id": "x",
+   "name": "X",
+   "handle": "@sergeosaulenko",
+   "color": "#6e747c",
+   "followers": null,
+   "fDelta": null,
+   "followersNote": null,
+   "views": 212,
+   "viewsText": null,
+   "viewsLabel": "Impressions \u00b7 Nov 5",
+   "eng": null,
+   "posts": 4,
+   "trend": [
+    19,
+    19,
+    33,
+    53,
+    142,
+    165,
+    193,
+    212
+   ],
+   "trendLabel": "Impressions \u00b7 daily",
+   "about": "Evening videos. No thumbnail support through Postiz \u2014 the video's own frame carries the cover.",
+   "note": "Postiz channel level (30 day query): Impressions 212 on Nov 5. Likes 1 and Replies 1 on Nov 5; Retweets, Quotes and Bookmarks all 0 on Nov 5.",
+   "recent": [
+    {
+     "t": "The Family Dashboard That Runs Our House",
+     "when": "Sun, Nov 1",
+     "views": 13,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "At 6:45, My Phone Hands Me My Day",
+     "when": "Sat, Oct 31",
+     "views": 29,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Your AI Has a Desk, Not a Filing Cabinet",
+     "when": "Fri, Oct 30",
+     "views": 12,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Series Episode 1 \u2014 \u201cOut of the jar\u201d",
+     "when": "Thu, Oct 29",
+     "views": 21,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    }
+   ]
+  }
+ ],
+ "posts": [
+  {
+   "id": "s17-66",
+   "time": null,
+   "title": "HVAC gap check",
+   "channel": "linkedin",
+   "channelLabel": "LinkedIn",
+   "format": "image",
+   "views": null,
+   "impressions": null,
+   "likes": null,
+   "comments": null,
+   "shares": null,
+   "saves": null,
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7523733463448027136",
+   "note": "CORRECTED Nov 4: the original 13:00 UTC attempt actually PUBLISHED on both legs (personal urn:li:share:7523731089064984577; Page urn:li:share:7523730996333236224). A transient ERROR read-back led to the one allowed retry, which also published at 13:10 UTC (personal urn:li:share:7523733463448027136; Page urn:li:share:7523733465318555648). The post is therefore DUPLICATED on both LinkedIn accounts; all four URLs live as of 13:14 UTC read-back. Dashboard points at the original scheduled pair. No deletion taken \u2014 Serge to rule which copy stays.\nRESOLVED IN PART Nov 4 ~9:05 AM ET: Serge deleted the"
+  },
+  {
+   "id": "s17-67",
+   "time": null,
+   "title": "HVAC gap check",
+   "channel": "linkedin-page",
+   "channelLabel": "LinkedIn Page",
+   "format": "image",
+   "views": null,
+   "impressions": 8,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7523733465318555648",
+   "note": "CORRECTED Nov 4: the original 13:00 UTC attempt actually PUBLISHED on both legs (personal urn:li:share:7523731089064984577; Page urn:li:share:7523730996333236224). A transient ERROR read-back led to the one allowed retry, which also published at 13:10 UTC (personal urn:li:share:7523733463448027136; Page urn:li:share:7523733465318555648). The post is therefore DUPLICATED on both LinkedIn accounts; all four URLs live as of 13:14 UTC read-back. Dashboard points at the original scheduled pair. No deletion taken \u2014 Serge to rule which copy stays.\nRESOLVED IN PART Nov 4 ~9:05 AM ET: Serge deleted the"
+  }
+ ],
+ "campaign": {
+  "name": "HVAC Gap Check Test (Traffic)",
+  "platform": "Meta (Facebook & Instagram)",
+  "status": "Active",
+  "since": "Nov 2, 2026",
+  "windowLabel": "Nov 2 \u2013 Nov 5, 2026",
+  "spend": 27.42,
+  "impressions": 2070,
+  "reach": 1796,
+  "videoViews": 604,
+  "clicks": 49,
+  "ctr": "3.43%",
+  "cpc": 0.386197,
+  "landingViews": 47,
+  "cpl": 0.583404,
+  "utm": "utm_source=meta \u00b7 utm_medium=cpc \u00b7 utm_campaign=hvac_gap_check_v1 \u00b7 utm_content=v1_slam",
+  "note": "Landing views are visits to the landing page, not leads \u2014 Gap Check starts are tracked in GA4, not in Meta. Tags verified live in GA4 with the ad ACTIVE since Nov 2; the creative ends with 'link in my bio', so the post itself carries no link."
+ },
+ "week": [
+  {
+   "d": "Thu 29",
+   "v": 125
+  },
+  {
+   "d": "Fri 30",
+   "v": 200
+  },
+  {
+   "d": "Sat 31",
+   "v": 159
+  },
+  {
+   "d": "Sun 1",
+   "v": 167
+  },
+  {
+   "d": "Mon 2",
+   "v": 140
+  },
+  {
+   "d": "Tue 3",
+   "v": 150
+  },
+  {
+   "d": "Wed 4",
+   "v": 237
+  }
+ ],
+ "weekLabel": "Instagram \u00b7 Reach per day",
+ "weekTotal": 1178,
+ "site": {
+  "sessions": 26,
+  "pageViews": 26,
+  "windowLabel": "Nov 3 \u2013 Nov 5, 2026",
+  "hostLabel": "trades.selenko.com \u00b7 GA4",
+  "linksEntries": null,
+  "signupClicks": null,
+  "contactClicks": null,
+  "gsc": {
+   "impressions": 59,
+   "clicks": 0,
+   "windowLabel": "Oct 8 \u2013 Nov 5, 2026",
+   "topQuery": "selenko",
+   "topQueryImpressions": 20
+  },
+  "note": "Main selenko.com GA4 is stale \u2014 the current site build carries no GA4 tag (50 historical sessions, Aug 1 \u2013 Nov 5). The Trades property above is the live one. Search Console: 59 impressions \u00b7 0 clicks \u00b7 Oct 8 \u2013 Nov 5, 2026 \u00b7 top query 'selenko' (20 impressions)."
+ },
+ "kpis": [
+  {
+   "label": "Total \u00b7 Instagram \u00b7 Reach per day",
+   "value": "1,178",
+   "sub": "sum of the daily series shown in the chart"
+  },
+  {
+   "label": "Engagement \u00b7 latest posts",
+   "value": "0",
+   "sub": "likes, comments, shares &amp; saves \u00b7 reported on 1 of 2 legs"
+  },
+  {
+   "label": "Followers \u00b7 reported channels",
+   "value": "30",
+   "sub": "only YouTube reports a count"
+  },
+  {
+   "label": "Ad spend \u00b7 HVAC campaign",
+   "value": "$27.42",
+   "sub": "47 landing views \u00b7 $0.58 per landing view"
+  }
+ ]
+}
