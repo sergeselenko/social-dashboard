@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>TV Social Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f4f4f1;
+        --card: #ffffff;
+        --card-2: #ececea;
+        --ink: #131518;
+        --ink-2: #4c5158;
+        --ink-3: #83898f;
+        --hairline: rgba(19, 21, 24, 0.09);
+        --accent: #b35c1e;
+        --accent-ink: #9c4f16;
+        --good: #1a7f4b;
+        --bad: #c0362c;
+        --chip: rgba(19, 21, 24, 0.06);
+        --gate-bg: #101215;
+        --gate-card: #1a1d21;
+        --gate-ink: #f2f3f4;
+        --gate-ink-2: #9aa0a6;
+        --gate-hairline: rgba(255, 255, 255, 0.12);
+        --key: #24282e;
+        --key-hover: #2f343b;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b0d10;
+          --card: #14171c;
+          --card-2: #1b1f26;
+          --ink: #f2f3f4;
+          --ink-2: #b7bcc2;
+          --ink-3: #7d838c;
+          --hairline: rgba(255, 255, 255, 0.09);
+          --accent: #e89b4e;
+          --accent-ink: #e89b4e;
+          --good: #3fbf72;
+          --bad: #f0685e;
+          --chip: rgba(255, 255, 255, 0.08);
+        }
+      }
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Inter", -apple-system, "Segoe UI", Roboto, sans-serif;
+        font-size: 19px;
+        line-height: 1.45;
+      }
+      button { font: inherit; cursor: pointer; }
+      :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+      /* ---------- Passcode gate ---------- */
+      #gate {
+        min-height: 100vh;
+        min-height: 100dvh;
+        background: var(--gate-bg);
+        color: var(--gate-ink);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px 20px;
+      }
+      .gate-inner { width: 100%; max-width: 380px; text-align: center; }
+      .gate-title { font-size: 34px; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 6px; }
+      .gate-sub { color: var(--gate-ink-2); font-size: 17px; margin: 0 0 34px; }
+      .dots { display: flex; justify-content: center; gap: 16px; margin-bottom: 34px; min-height: 18px; }
+      .dot { width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--gate-ink-2); transition: background 0.12s ease, border-color 0.12s ease; }
+      .dot.filled { background: var(--gate-ink); border-color: var(--gate-ink); }
+      .dots.error .dot { border-color: #f0685e; background: #f0685e; }
+      .keypad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+      .key {
+        background: var(--key);
+        color: var(--gate-ink);
+        border: 1px solid var(--gate-hairline);
+        border-radius: 16px;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 16px 0 14px;
+        line-height: 1.1;
+      }
+      .key:hover, .key:focus-visible { background: var(--key-hover); }
+      .key:active { transform: scale(0.97); }
+      .key.util { font-size: 16px; font-weight: 500; color: var(--gate-ink-2); display: flex; align-items: center; justify-content: center; }
+      .gate-msg { height: 24px; margin-top: 18px; font-size: 15px; color: #f0685e; }
+      @keyframes shake { 0%, 100% { transform: translateX(0); } 20%, 60% { transform: translateX(-9px); } 40%, 80% { transform: translateX(9px); } }
+      .shake { animation: shake 0.4s ease; }
+      @media (prefers-reduced-motion: reduce) {
+        .shake { animation: none; }
+        .key:active { transform: none; }
+      }
+
+      /* ---------- App frame ---------- */
+      #app { max-width: 1560px; margin: 0 auto; padding: 28px clamp(18px, 3.5vw, 52px) 64px; }
+      .topbar {
+        display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between;
+        gap: 14px 28px; padding-bottom: 20px;
+      }
+      .topbar h1 { font-size: clamp(30px, 3.4vw, 44px); font-weight: 800; letter-spacing: -0.025em; margin: 0; }
+      .dateline { color: var(--ink-2); font-size: 18px; font-weight: 500; margin-top: 4px; }
+      .top-right { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+      .clock { font-size: clamp(26px, 2.6vw, 36px); font-weight: 700; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+      .fresh { color: var(--ink-3); font-size: 15px; }
+      .lock-btn {
+        background: var(--chip); color: var(--ink-2); border: none; border-radius: 999px;
+        padding: 7px 16px; font-size: 15px; font-weight: 600;
+      }
+      .lock-btn:hover { color: var(--ink); }
+
+      .draft-note {
+        border: 1px solid var(--hairline);
+        background: var(--card-2);
+        border-radius: 14px;
+        padding: 13px 18px;
+        font-size: 16px;
+        color: var(--ink-2);
+        margin-bottom: 26px;
+      }
+      .draft-note strong { color: var(--ink); font-weight: 700; }
+
+      section.block { margin-bottom: 34px; }
+      .block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin: 0 4px 12px; }
+      .block-head h2 { font-size: 25px; font-weight: 700; letter-spacing: -0.015em; margin: 0; }
+      .block-head .hint { color: var(--ink-3); font-size: 15px; font-weight: 500; }
+      .card { background: var(--card); border-radius: 20px; overflow: hidden; }
+
+      /* KPI strip: one flat card, hairline-divided cells */
+      .kpis { display: grid; grid-template-columns: repeat(4, 1fr); }
+      .kpi { padding: 24px 26px 22px; }
+      .kpi + .kpi { border-left: 1px solid var(--hairline); }
+      .kpi .label { color: var(--ink-2); font-size: 16px; font-weight: 600; }
+      .kpi .value { font-size: clamp(38px, 4vw, 58px); font-weight: 800; letter-spacing: -0.03em; line-height: 1.08; margin: 4px 0 2px; font-variant-numeric: tabular-nums; }
+      .kpi .sub { font-size: 16px; color: var(--ink-3); }
+      .delta { font-weight: 700; }
+      .delta.up { color: var(--good); }
+      .delta.down { color: var(--bad); }
+
+      /* Two-up row: posts + chart */
+      .two-up { display: grid; grid-template-columns: 1.55fr 1fr; gap: 26px; align-items: start; }
+      .two-up section.block { margin-bottom: 0; }
+
+      /* Post rows */
+      .post-row {
+        display: grid; grid-template-columns: 86px 1fr auto; gap: 6px 18px; align-items: center;
+        width: 100%; text-align: left; background: none; border: none; color: inherit;
+        padding: 17px 22px; border-top: 1px solid var(--hairline);
+      }
+      .post-row:first-child { border-top: none; }
+      button.post-row:hover, button.channel-row:hover, button.campaign-row:hover { background: var(--card-2); }
+      .post-time { color: var(--ink-3); font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+      .post-title { font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
+      .post-meta { color: var(--ink-3); font-size: 15px; margin-top: 2px; }
+      .post-nums { text-align: right; font-variant-numeric: tabular-nums; }
+      .post-nums .big { font-size: 24px; font-weight: 800; letter-spacing: -0.02em; }
+      .post-nums .lbl { color: var(--ink-3); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .card-foot { padding: 14px 22px; border-top: 1px solid var(--hairline); color: var(--ink-3); font-size: 15px; }
+
+      /* Chart */
+      .chart-wrap { padding: 22px 22px 14px; }
+      .chart-total { font-size: 15px; color: var(--ink-3); margin-bottom: 10px; }
+      .chart-total strong { color: var(--ink); font-size: 19px; }
+
+      /* Channel rows */
+      .channel-row {
+        display: grid; grid-template-columns: minmax(240px, 1.5fr) repeat(4, minmax(110px, 0.62fr)) 28px;
+        gap: 8px 20px; align-items: center;
+        width: 100%; text-align: left; background: none; border: none; color: inherit;
+        padding: 18px 22px; border-top: 1px solid var(--hairline);
+      }
+      .channel-row:first-child { border-top: none; }
+      .ch-name { display: flex; align-items: center; gap: 13px; min-width: 0; }
+      .ch-dot { width: 13px; height: 13px; border-radius: 50%; flex: none; }
+      .ch-name .n { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      .ch-name .h { color: var(--ink-3); font-size: 15px; white-space: nowrap; }
+      .ch-stat .v { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+      .ch-stat .l { color: var(--ink-3); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .chev { color: var(--ink-3); font-size: 22px; text-align: right; }
+
+      /* Campaign row */
+      .campaign-row {
+        display: grid; grid-template-columns: minmax(260px, 1.4fr) repeat(4, minmax(110px, 0.6fr)) 28px;
+        gap: 8px 20px; align-items: center;
+        width: 100%; text-align: left; background: none; border: none; color: inherit;
+        padding: 20px 22px;
+      }
+      .status { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; font-weight: 700; color: var(--good); }
+      .status::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--good); }
+
+      /* Website strip */
+      .site-stats { display: grid; grid-template-columns: repeat(4, 1fr); }
+      .site-stat { padding: 20px 24px; }
+      .site-stat + .site-stat { border-left: 1px solid var(--hairline); }
+      .site-stat .v { font-size: 32px; font-weight: 800; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+      .site-stat .l { color: var(--ink-2); font-size: 15px; font-weight: 600; margin-top: 2px; }
+
+      .foot { color: var(--ink-3); font-size: 15px; padding: 6px 4px 0; max-width: 900px; }
+      .foot strong { color: var(--ink-2); }
+
+      /* ---------- Detail view ---------- */
+      .back-btn {
+        background: var(--chip); border: none; color: var(--ink); border-radius: 999px;
+        padding: 9px 18px; font-size: 16px; font-weight: 600; margin-bottom: 20px;
+      }
+      .detail-head { margin-bottom: 22px; }
+      .detail-head .over { color: var(--accent-ink); font-size: 16px; font-weight: 700; }
+      .detail-head h2 { font-size: clamp(30px, 3.4vw, 46px); font-weight: 800; letter-spacing: -0.025em; margin: 4px 0 6px; }
+      .detail-head .sub { color: var(--ink-2); font-size: 18px; }
+      .detail-stats { display: grid; grid-template-columns: repeat(4, 1fr); margin-bottom: 26px; }
+      .detail-stats .kpi .value { font-size: clamp(30px, 3vw, 44px); }
+      .kv-row { display: flex; justify-content: space-between; gap: 20px; padding: 15px 22px; border-top: 1px solid var(--hairline); font-size: 17px; }
+      .kv-row:first-child { border-top: none; }
+      .kv-row .k { color: var(--ink-2); font-weight: 500; }
+      .kv-row .v { font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+      .note-text { padding: 18px 22px; color: var(--ink-2); font-size: 17px; }
+
+      [hidden] { display: none !important; }
+
+      /* ---------- Responsive ---------- */
+      @media (max-width: 1080px) {
+        .two-up { grid-template-columns: 1fr; }
+        .two-up section.block { margin-bottom: 34px; }
+        .kpis { grid-template-columns: repeat(2, 1fr); }
+        .kpi:nth-child(3) { border-left: none; }
+        .kpi:nth-child(n+3) { border-top: 1px solid var(--hairline); }
+        .detail-stats { grid-template-columns: repeat(2, 1fr); }
+        .detail-stats .kpi:nth-child(3) { border-left: none; }
+        .detail-stats .kpi:nth-child(n+3) { border-top: 1px solid var(--hairline); }
+        .site-stats { grid-template-columns: repeat(2, 1fr); }
+        .site-stat:nth-child(3) { border-left: none; }
+        .site-stat:nth-child(n+3) { border-top: 1px solid var(--hairline); }
+      }
+      @media (max-width: 760px) {
+        body { font-size: 17px; }
+        .channel-row, .campaign-row { grid-template-columns: 1fr 1fr; row-gap: 12px; }
+        .channel-row .chev, .campaign-row .chev { display: none; }
+        .post-row { grid-template-columns: 1fr auto; }
+        .post-time { grid-column: 1 / -1; }
+        .top-right { align-items: flex-start; text-align: left; }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ================= Passcode gate ================= -->
+    <div id="gate">
+      <div class="gate-inner" id="gateInner">
+        <h1 class="gate-title">Social Dashboard</h1>
+        <p class="gate-sub">Enter the passcode to view</p>
+        <div class="dots" id="dots" aria-hidden="true">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <div class="keypad" role="group" aria-label="Passcode keypad">
+          <button class="key" data-d="1">1</button>
+          <button class="key" data-d="2">2</button>
+          <button class="key" data-d="3">3</button>
+          <button class="key" data-d="4">4</button>
+          <button class="key" data-d="5">5</button>
+          <button class="key" data-d="6">6</button>
+          <button class="key" data-d="7">7</button>
+          <button class="key" data-d="8">8</button>
+          <button class="key" data-d="9">9</button>
+          <button class="key util" id="keyClear">Clear</button>
+          <button class="key" data-d="0">0</button>
+          <button class="key util" id="keyBack" aria-label="Backspace">⌫</button>
+        </div>
+        <p class="gate-msg" id="gateMsg" role="alert"></p>
+      </div>
+    </div>
+
+    <!-- ================= Dashboard ================= -->
+    <div id="app" hidden>
+      <header class="topbar">
+        <div>
+          <h1>Social Dashboard</h1>
+          <div class="dateline" id="dateline">—</div>
+        </div>
+        <div class="top-right">
+          <div class="clock" id="clock">—</div>
+          <div class="fresh">Snapshot · Thu, Nov 5, 2026 · 10:48 AM ET</div>
+          <button class="lock-btn" id="lockBtn">Lock</button>
+        </div>
+      </header>
+
+      <div class="draft-note">
+        <strong>First draft.</strong> The layout, sections, and drill-ins are real; the figures are
+        illustrative sample numbers in your real channel and campaign structure. Live numbers replace
+        them when the feeds are wired in (Postiz / platform insights, Meta Ads, GA4).
+      </div>
+
+      <!-- Overview -->
+      <main id="overview">
+        <section class="block" aria-label="Key numbers, last 7 days">
+          <div class="card">
+            <div class="kpis" id="kpiStrip"></div>
+          </div>
+        </section>
+
+        <div class="two-up">
+          <section class="block" aria-label="Latest posts">
+            <div class="block-head">
+              <h2>Latest posts — Wednesday, Nov 4</h2>
+              <span class="hint">Tap a post for detail</span>
+            </div>
+            <div class="card">
+              <div id="postsList"></div>
+              <div class="card-foot">Also Nov 4: the dashboard reel was shared to Instagram and Facebook Stories, and the Facebook Selenko business page post was shared to that Page's story. Story views are tracked separately and won't be credited to the posts' own performance in the ~Nov 13 plan verdict.</div>
+            </div>
+          </section>
+
+          <section class="block" aria-label="Views by day">
+            <div class="block-head">
+              <h2>Views by day</h2>
+              <span class="hint">All channels</span>
+            </div>
+            <div class="card">
+              <div class="chart-wrap">
+                <div class="chart-total">Last 7 days · <strong>9,412 views</strong></div>
+                <div id="weekChart"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="block" aria-label="Channels" style="margin-top:34px">
+          <div class="block-head">
+            <h2>Channels</h2>
+            <span class="hint">Last 7 days · tap a channel for detail</span>
+          </div>
+          <div class="card" id="channelCard"></div>
+        </section>
+
+        <section class="block" aria-label="Advertising">
+          <div class="block-head">
+            <h2>Ads</h2>
+            <span class="hint">Meta · tap the campaign for detail</span>
+          </div>
+          <div class="card" id="adsCard"></div>
+        </section>
+
+        <section class="block" aria-label="Website">
+          <div class="block-head">
+            <h2>selenko.com</h2>
+            <span class="hint">GA4 · last 7 days</span>
+          </div>
+          <div class="card">
+            <div class="site-stats">
+              <div class="site-stat"><div class="v">214</div><div class="l">Sessions</div></div>
+              <div class="site-stat"><div class="v">38</div><div class="l">Links page entries</div></div>
+              <div class="site-stat"><div class="v">12</div><div class="l">Seminar sign-up clicks</div></div>
+              <div class="site-stat"><div class="v">5</div><div class="l">Contact clicks</div></div>
+            </div>
+            <div class="card-foot">The three click events — signup_click, links_entry_click, contact_click — are the ones rolling out to every selenko.com page this week. Microsoft Clarity (heatmaps &amp; session replays) runs alongside GA4.</div>
+          </div>
+        </section>
+
+        <p class="foot">
+          <strong>How this grows:</strong> each channel, post, and campaign above opens its own detail
+          view — that's the pattern for the full build. Next step is wiring the live feeds so this page
+          refreshes itself on the TV instead of carrying a dated snapshot.
+        </p>
+      </main>
+
+      <!-- Detail view -->
+      <main id="detail" hidden>
+        <button class="back-btn" id="backBtn">← Back to overview</button>
+        <div id="detailBody"></div>
+      </main>
+    </div>
+
+    <script>
+      /* ================= Data (sample figures, real structure) ================= */
+      var CHANNELS = [
+        { id: "instagram", name: "Instagram", handle: "@serge.osaulenko", color: "#d62976",
+          followers: 1284, fDelta: 21, views: 3214, eng: "4.8%", posts: 9,
+          trend: [310, 356, 402, 388, 470, 585, 703],
+          about: "Reels, the morning setup carousel, and Stories. The carousel and the evening video both land here daily; Facebook copies arrive via your manual Instagram share.",
+          recent: [
+            { t: "Dashboard tutorial — Reel", when: "Wed Nov 4 · 9:31 PM", views: 428, likes: 31, comments: 6, shares: 4, saves: 11 },
+            { t: "Setup of the Day — carousel, 7 slides", when: "Wed Nov 4 · 8:00 AM", views: 191, likes: 14, comments: 3, shares: 2, saves: 6 },
+            { t: "Building Block episode — Reel", when: "Tue Nov 3 · 7:05 PM", views: 512, likes: 40, comments: 8, shares: 5, saves: 13 },
+            { t: "Setup of the Day — carousel, 7 slides", when: "Tue Nov 3 · 8:00 AM", views: 176, likes: 12, comments: 4, shares: 1, saves: 8 }
+          ] },
+        { id: "linkedin", name: "LinkedIn — personal", handle: "Serge Osaulenko", color: "#0a66c2",
+          followers: 2317, fDelta: 14, views: 1486, eng: "3.1%", posts: 10,
+          trend: [150, 168, 190, 175, 232, 268, 303],
+          about: "Your lead surface: the morning carousel and the evening video both post here on production days, as two differentiated posts. Native video uploads only.",
+          recent: [
+            { t: "Dashboard tutorial — video (native upload)", when: "Wed Nov 4 · 9:34 PM", views: 264, likes: 18, comments: 5, shares: 2, saves: 3 },
+            { t: "Setup of the Day — carousel", when: "Wed Nov 4 · 8:05 AM", views: 342, likes: 21, comments: 4, shares: 3, saves: 5 },
+            { t: "Building Block episode — video (native upload)", when: "Tue Nov 3 · 7:10 PM", views: 298, likes: 16, comments: 3, shares: 1, saves: 2 }
+          ] },
+        { id: "linkedin-page", name: "LinkedIn Selenko business page", handle: "Selenko", color: "#0a66c2",
+          followers: 212, fDelta: 6, views: 640, eng: "2.4%", posts: 10,
+          trend: [62, 70, 84, 78, 96, 118, 132],
+          about: "Mirrors the personal profile's production slate — morning carousel and evening video on production days.",
+          recent: [
+            { t: "Dashboard tutorial — video", when: "Wed Nov 4 · 9:36 PM", views: 96, likes: 6, comments: 1, shares: 1, saves: 0 },
+            { t: "Setup of the Day — carousel", when: "Wed Nov 4 · 8:06 AM", views: 131, likes: 8, comments: 2, shares: 1, saves: 2 },
+            { t: "Building Block episode — video", when: "Tue Nov 3 · 7:12 PM", views: 118, likes: 7, comments: 1, shares: 0, saves: 1 }
+          ] },
+        { id: "facebook-page", name: "Facebook Selenko business page", handle: "Selenko", color: "#1877f2",
+          followers: 386, fDelta: 3, views: 912, eng: "2.9%", posts: 9,
+          trend: [98, 110, 121, 116, 138, 156, 173],
+          about: "Posts arrive via your manual Instagram share (auto-share is unreliable). The Nov 4 post was also shared to the Page's own story.",
+          recent: [
+            { t: "Dashboard tutorial — video (via Instagram share)", when: "Wed Nov 4 · 9:40 PM", views: 187, likes: 11, comments: 2, shares: 3, saves: 1 },
+            { t: "Setup of the Day — carousel", when: "Wed Nov 4 · 8:10 AM", views: 154, likes: 9, comments: 1, shares: 2, saves: 2 },
+            { t: "Building Block episode — video (via Instagram share)", when: "Tue Nov 3 · 7:15 PM", views: 203, likes: 12, comments: 3, shares: 2, saves: 1 }
+          ] },
+        { id: "tiktok", name: "TikTok", handle: "@serge.osaulenko", color: "#8a8f98",
+          followers: 743, fDelta: 31, views: 1540, eng: "5.6%", posts: 5,
+          trend: [140, 172, 158, 205, 246, 289, 330],
+          about: "Evening videos only, posted as direct posts so a chosen cover frame can be set from the posting sheet's timestamp.",
+          recent: [
+            { t: "Dashboard tutorial — video", when: "Wed Nov 4 · 9:30 PM", views: 517, likes: 38, comments: 4, shares: 6, saves: 9 },
+            { t: "Building Block episode — video", when: "Tue Nov 3 · 7:02 PM", views: 463, likes: 33, comments: 5, shares: 4, saves: 7 },
+            { t: "Watch It Work — screen recording", when: "Mon Nov 2 · 6:48 PM", views: 389, likes: 29, comments: 6, shares: 3, saves: 5 }
+          ] },
+        { id: "youtube", name: "YouTube", handle: "@sergeosaulenko", color: "#e62117",
+          followers: 418, fDelta: 17, views: 986, eng: "3.9%", posts: 5,
+          trend: [96, 118, 112, 141, 158, 172, 189],
+          about: "Shorts post through YouTube Studio while the Postiz connection is down; your own 'Selenko Uploads' Google Cloud route is in setup. Designed covers are set manually in Studio.",
+          recent: [
+            { t: "Dashboard tutorial — Short", when: "Wed Nov 4 · 9:30 PM", views: 342, likes: 24, comments: 5, shares: 3, saves: 0 },
+            { t: "Building Block episode — Short", when: "Tue Nov 3 · 7:00 PM", views: 287, likes: 19, comments: 3, shares: 2, saves: 0 },
+            { t: "Watch It Work — Short", when: "Mon Nov 2 · 6:45 PM", views: 231, likes: 15, comments: 2, shares: 1, saves: 0 }
+          ] },
+        { id: "x", name: "X", handle: "@sergeosaulenko", color: "#6e747c",
+          followers: 529, fDelta: 4, views: 634, eng: "1.2%", posts: 5,
+          trend: [74, 82, 79, 88, 95, 104, 112],
+          about: "Evening videos. No thumbnail support through Postiz — the video's own frame carries the cover.",
+          recent: [
+            { t: "Dashboard tutorial — video", when: "Wed Nov 4 · 9:33 PM", views: 158, likes: 7, comments: 1, shares: 2, saves: 0 },
+            { t: "Building Block episode — video", when: "Tue Nov 3 · 7:08 PM", views: 141, likes: 6, comments: 2, shares: 1, saves: 0 }
+          ] }
+      ];
+
+      var POSTS_NOV4 = [
+        { id: "p1", time: "9:30 PM", title: "Dashboard tutorial — the family dashboard, live", channel: "youtube",
+          format: "Short · evening video", views: 342, likes: 24, comments: 5, shares: 3, saves: 0,
+          note: "Lead-capture pilot post: the caption asks viewers to comment DASHBOARD; ManyChat fulfills on Instagram and Facebook, other platforms are fulfilled manually." },
+        { id: "p2", time: "9:30 PM", title: "Dashboard tutorial — the family dashboard, live", channel: "tiktok",
+          format: "Video · evening video", views: 517, likes: 38, comments: 4, shares: 6, saves: 9,
+          note: "Posted as a direct post so the cover frame could be set from the posting sheet's timestamp." },
+        { id: "p3", time: "9:31 PM", title: "Dashboard tutorial — the family dashboard, live", channel: "instagram",
+          format: "Reel · evening video", views: 428, likes: 31, comments: 6, shares: 4, saves: 11,
+          note: "Comment DASHBOARD on this Reel is answered by ManyChat (free tier) with the links page." },
+        { id: "p4", time: "9:34 PM", title: "Dashboard tutorial — the family dashboard, live", channel: "linkedin",
+          format: "Video · native upload", views: 264, likes: 18, comments: 5, shares: 2, saves: 3,
+          note: "Carries the AI-twin disclosure line used on LinkedIn and X posts." },
+        { id: "p5", time: "8:00 AM", title: "Setup of the Day — the saveable setup, taught in full", channel: "instagram",
+          format: "Carousel · 7 slides · morning slot", views: 191, likes: 14, comments: 3, shares: 2, saves: 6,
+          note: "The morning slot's TEACH structure: one setup taught completely, with the copyable exact-words slide and the seminar line in words." },
+        { id: "p6", time: "8:05 AM", title: "Setup of the Day — the saveable setup, taught in full", channel: "linkedin",
+          format: "Carousel · morning slot", views: 342, likes: 21, comments: 4, shares: 3, saves: 5,
+          note: "Same carousel as Instagram; LinkedIn carries both the morning carousel and the evening video on production days." }
+      ];
+
+      var CAMPAIGN = {
+        name: "HVAC Gap Check — v1",
+        platform: "Meta (Facebook & Instagram)",
+        status: "Active",
+        since: "Nov 2, 2026",
+        spend: 86.40, impressions: 6214, clicks: 118, ctr: "1.9%", leads: 3, cpl: 28.80,
+        utm: "utm_source=meta · utm_medium=cpc · utm_campaign=hvac_gap_check_v1 · utm_content=v1_slam",
+        note: "Tags verified in GA4 with the ad ACTIVE since Nov 2. The creative ends with 'link in my bio' — the post itself carries no link; the links page gathers the HVAC tool with the other free assets."
+      };
+
+      var WEEK = [
+        { d: "Fri 30", v: 1050 }, { d: "Sat 31", v: 1120 }, { d: "Sun 1", v: 980 },
+        { d: "Mon 2", v: 1240 }, { d: "Tue 3", v: 1385 }, { d: "Wed 4", v: 1720 },
+        { d: "Thu 5", v: 1917, partial: true }
+      ];
+
+      /* ================= Helpers ================= */
+      function fmt(n) { return n.toLocaleString("en-US"); }
+      function money(n) { return "$" + n.toFixed(2); }
+      function channelById(id) { for (var i = 0; i < CHANNELS.length; i++) if (CHANNELS[i].id === id) return CHANNELS[i]; return null; }
+      function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+      function sparkline(trend, color) {
+        var w = 96, h = 30, max = Math.max.apply(null, trend), min = Math.min.apply(null, trend);
+        var pts = trend.map(function (v, i) {
+          var x = (i / (trend.length - 1)) * (w - 6) + 3;
+          var y = h - 4 - ((v - min) / (max - min || 1)) * (h - 9);
+          return x.toFixed(1) + "," + y.toFixed(1);
+        }).join(" ");
+        return '<svg width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + " " + h + '" aria-hidden="true">' +
+          '<polyline points="' + pts + '" fill="none" stroke="' + color + '" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      }
+      function sparklineWide(trend, color) {
+        var w = 1120, h = 110, max = Math.max.apply(null, trend), min = Math.min.apply(null, trend);
+        var pts = trend.map(function (v, i) {
+          var x = (i / (trend.length - 1)) * (w - 24) + 12;
+          var y = h - 14 - ((v - min) / (max - min || 1)) * (h - 34);
+          return x.toFixed(1) + "," + y.toFixed(1);
+        }).join(" ");
+        var dotsHtml = trend.map(function (v, i) {
+          var x = (i / (trend.length - 1)) * (w - 24) + 12;
+          var y = h - 14 - ((v - min) / (max - min || 1)) * (h - 34);
+          return '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="6" fill="' + color + '"/>';
+        }).join("");
+        return '<svg viewBox="0 0 ' + w + " " + h + '" width="100%" preserveAspectRatio="none" style="display:block;height:110px" aria-hidden="true">' +
+          '<polyline points="' + pts + '" fill="none" stroke="' + color + '" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>' + dotsHtml + "</svg>";
+      }
+      function metricCell(v, l) { return '<div class="ch-stat"><div class="v">' + v + '</div><div class="l">' + l + "</div></div>"; }
+
+      /* ================= Overview rendering ================= */
+      function renderKpis() {
+        var totalFollowers = CHANNELS.reduce(function (s, c) { return s + c.followers; }, 0);
+        var newFollowers = CHANNELS.reduce(function (s, c) { return s + c.fDelta; }, 0);
+        var kpis = [
+          { label: "Total views · 7 days", value: "9,412", sub: '<span class="delta up">▲ 18%</span> vs prior 7 days' },
+          { label: "Engagement · 7 days", value: "612", sub: "likes, comments, shares &amp; saves" },
+          { label: "Followers · all channels", value: fmt(totalFollowers), sub: '<span class="delta up">▲ ' + newFollowers + "</span> this week" },
+          { label: "Ad spend · HVAC campaign", value: money(CAMPAIGN.spend), sub: CAMPAIGN.leads + " leads · " + money(CAMPAIGN.cpl) + " per lead" }
+        ];
+        document.getElementById("kpiStrip").innerHTML = kpis.map(function (k) {
+          return '<div class="kpi"><div class="label">' + k.label + '</div><div class="value">' + k.value + '</div><div class="sub">' + k.sub + "</div></div>";
+        }).join("");
+      }
+
+      function renderPosts() {
+        document.getElementById("postsList").innerHTML = POSTS_NOV4.map(function (p) {
+          var ch = channelById(p.channel);
+          return '<button class="post-row" data-post="' + p.id + '">' +
+            '<span class="post-time">' + p.time + "</span>" +
+            "<span><span class=\"post-title\">" + esc(p.title) + '</span><div class="post-meta">' + esc(ch.name) + " · " + esc(p.format) + "</div></span>" +
+            '<span class="post-nums"><span class="big">' + fmt(p.views) + '</span><div class="lbl">views</div></span>' +
+            "</button>";
+        }).join("");
+        var rows = document.querySelectorAll("[data-post]");
+        for (var i = 0; i < rows.length; i++) rows[i].addEventListener("click", function () { showPost(this.getAttribute("data-post")); });
+      }
+
+      function renderChart() {
+        var w = 520, h = 210, base = 168, max = 2000;
+        var bw = 46, gap = (w - 40 - WEEK.length * bw) / (WEEK.length - 1);
+        var svg = '<svg viewBox="0 0 ' + w + " " + h + '" width="100%" role="img" aria-label="Bar chart of views per day for the last 7 days">';
+        svg += '<line x1="8" y1="' + base + '" x2="' + (w - 8) + '" y2="' + base + '" stroke="var(--hairline)" stroke-width="1"/>';
+        WEEK.forEach(function (d, i) {
+          var bh = Math.round((d.v / max) * 128);
+          var x = 20 + i * (bw + gap), y = base - bh;
+          svg += '<rect x="' + x + '" y="' + y + '" width="' + bw + '" height="' + bh + '" rx="6" fill="' + (d.partial ? "var(--ink-3)" : "var(--accent)") + '" opacity="' + (d.partial ? "0.45" : "0.9") + '"/>';
+          svg += '<text x="' + (x + bw / 2) + '" y="' + (y - 9) + '" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ink)">' + fmt(d.v) + "</text>";
+          svg += '<text x="' + (x + bw / 2) + '" y="' + (base + 24) + '" text-anchor="middle" font-size="14" fill="var(--ink-3)">' + d.d + (d.partial ? " · so far" : "") + "</text>";
+        });
+        svg += "</svg>";
+        document.getElementById("weekChart").innerHTML = svg;
+      }
+
+      function renderChannels() {
+        document.getElementById("channelCard").innerHTML = CHANNELS.map(function (c) {
+          return '<button class="channel-row" data-channel="' + c.id + '">' +
+            '<span class="ch-name"><span class="ch-dot" style="background:' + c.color + '"></span><span><span class="n">' + esc(c.name) + '</span><div class="h">' + esc(c.handle) + "</div></span></span>" +
+            metricCell(fmt(c.followers), "Followers") +
+            metricCell(fmt(c.views), "Views · 7d") +
+            metricCell(c.eng, "Engagement") +
+            '<span class="ch-stat"><span class="delta up">▲ ' + c.fDelta + '</span><div class="l">New followers</div></span>' +
+            '<span class="chev">›</span></button>';
+        }).join("");
+        var rows = document.querySelectorAll("[data-channel]");
+        for (var i = 0; i < rows.length; i++) rows[i].addEventListener("click", function () { showChannel(this.getAttribute("data-channel")); });
+      }
+
+      function renderAds() {
+        document.getElementById("adsCard").innerHTML =
+          '<button class="campaign-row" id="campaignRow">' +
+            '<span><span class="post-title">' + esc(CAMPAIGN.name) + '</span><div class="post-meta">' + esc(CAMPAIGN.platform) + ' · since ' + CAMPAIGN.since + '</div><span class="status">' + CAMPAIGN.status + "</span></span>" +
+            metricCell(money(CAMPAIGN.spend), "Spend") +
+            metricCell(fmt(CAMPAIGN.impressions), "Impressions") +
+            metricCell(CAMPAIGN.clicks, "Clicks · " + CAMPAIGN.ctr + " CTR") +
+            metricCell(CAMPAIGN.leads, "Leads") +
+            '<span class="chev">›</span></button>';
+        document.getElementById("campaignRow").addEventListener("click", showCampaign);
+      }
+
+      /* ================= Detail views ================= */
+      var overviewEl = document.getElementById("overview");
+      var detailEl = document.getElementById("detail");
+      var detailBody = document.getElementById("detailBody");
+
+      function openDetail(html) {
+        detailBody.innerHTML = html;
+        overviewEl.hidden = true;
+        detailEl.hidden = false;
+        window.scrollTo(0, 0);
+      }
+      function closeDetail() {
+        detailEl.hidden = true;
+        overviewEl.hidden = false;
+        window.scrollTo(0, 0);
+      }
+      document.getElementById("backBtn").addEventListener("click", closeDetail);
+
+      function statsCard(stats) {
+        return '<div class="card" style="margin-bottom:26px"><div class="detail-stats kpis">' + stats.map(function (s) {
+          return '<div class="kpi"><div class="label">' + s[0] + '</div><div class="value">' + s[1] + '</div><div class="sub">' + (s[2] || "") + "</div></div>";
+        }).join("") + "</div></div>";
+      }
+      function postRows(posts) {
+        return posts.map(function (p) {
+          return '<div class="post-row" style="cursor:default">' +
+            '<span class="post-time">' + esc(p.when.split("·")[1] || "") + "</span>" +
+            '<span><span class="post-title">' + esc(p.t) + '</span><div class="post-meta">' + esc(p.when) + " · " + fmt(p.likes) + " likes · " + fmt(p.comments) + " comments · " + fmt(p.shares) + " shares · " + fmt(p.saves) + " saves</div></span>" +
+            '<span class="post-nums"><span class="big">' + fmt(p.views) + '</span><div class="lbl">views</div></span></div>';
+        }).join("");
+      }
+
+      function showChannel(id) {
+        var c = channelById(id);
+        if (!c) return;
+        openDetail(
+          '<div class="detail-head"><div class="over">Channel</div><h2>' + esc(c.name) + '</h2><div class="sub">' + esc(c.handle) + "</div></div>" +
+          statsCard([
+            ["Followers", fmt(c.followers), '<span class="delta up">▲ ' + c.fDelta + "</span> this week"],
+            ["Views · 7 days", fmt(c.views), c.posts + " posts"],
+            ["Engagement rate", c.eng, "of views"],
+            ["Posts · 7 days", c.posts, ""]
+          ]) +
+          '<section class="block"><div class="block-head"><h2>Views trend — 7 days</h2></div><div class="card"><div class="chart-wrap">' +
+            sparklineWide(c.trend, c.color) +
+            '<div class="chart-total" style="margin-top:14px">From ' + fmt(c.trend[0]) + " views on day one to " + fmt(c.trend[6]) + " yesterday.</div>" +
+          "</div></div></section>" +
+          '<section class="block"><div class="block-head"><h2>Recent posts</h2></div><div class="card">' + postRows(c.recent) + "</div></section>" +
+          '<section class="block"><div class="block-head"><h2>About this channel</h2></div><div class="card"><p class="note-text">' + esc(c.about) + "</p></div></section>"
+        );
+      }
+
+      function showPost(id) {
+        var p = null;
+        for (var i = 0; i < POSTS_NOV4.length; i++) if (POSTS_NOV4[i].id === id) p = POSTS_NOV4[i];
+        if (!p) return;
+        var ch = channelById(p.channel);
+        openDetail(
+          '<div class="detail-head"><div class="over">Post · Wednesday, Nov 4 · ' + p.time + '</div><h2>' + esc(p.title) + '</h2><div class="sub">' + esc(ch.name) + " · " + esc(p.format) + "</div></div>" +
+          statsCard([
+            ["Views", fmt(p.views), ""], ["Likes", fmt(p.likes), ""], ["Comments", fmt(p.comments), ""], ["Shares · Saves", fmt(p.shares) + " · " + fmt(p.saves), ""]
+          ]) +
+          '<section class="block"><div class="block-head"><h2>Notes</h2></div><div class="card"><p class="note-text">' + esc(p.note) + "</p></div></section>" +
+          '<section class="block"><div class="card"><div class="kv-row"><span class="k">Channel</span><span class="v">' + esc(ch.name) + " (" + esc(ch.handle) + ')</span></div>' +
+          '<div class="kv-row"><span class="k">Posted</span><span class="v">Wed, Nov 4, 2026 · ' + p.time + ' ET</span></div>' +
+          '<div class="kv-row"><span class="k">Snapshot age</span><span class="v">First 13 hours</span></div></div></section>'
+        );
+      }
+
+      function showCampaign() {
+        openDetail(
+          '<div class="detail-head"><div class="over">Ad campaign · Meta</div><h2>' + esc(CAMPAIGN.name) + '</h2><div class="sub">' + esc(CAMPAIGN.platform) + ' · <span class="status">' + CAMPAIGN.status + "</span> · since " + CAMPAIGN.since + "</div></div>" +
+          statsCard([
+            ["Spend", money(CAMPAIGN.spend), "since Nov 2"], ["Impressions", fmt(CAMPAIGN.impressions), ""], ["Clicks", CAMPAIGN.clicks, CAMPAIGN.ctr + " CTR"], ["Leads", CAMPAIGN.leads, money(CAMPAIGN.cpl) + " per lead"]
+          ]) +
+          '<section class="block"><div class="block-head"><h2>Tracking</h2></div><div class="card">' +
+            '<div class="kv-row"><span class="k">UTM tags</span><span class="v">' + esc(CAMPAIGN.utm) + "</span></div>" +
+            '<div class="kv-row"><span class="k">Measured in</span><span class="v">GA4 — Selenko Trades property</span></div>' +
+            '<div class="kv-row"><span class="k">Landing path</span><span class="v">Bio link → links page → HVAC tool</span></div>' +
+          "</div></section>" +
+          '<section class="block"><div class="block-head"><h2>Notes</h2></div><div class="card"><p class="note-text">' + esc(CAMPAIGN.note) + "</p></div></section>"
+        );
+      }
+
+      /* ================= Clock & date ================= */
+      function tickClock() {
+        var now = new Date();
+        document.getElementById("clock").textContent = now.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" });
+        document.getElementById("dateline").textContent = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+      }
+      tickClock();
+      setInterval(tickClock, 20000);
+
+      /* ================= Passcode gate ================= */
+      var CODE = "2023";
+      var entered = "";
+      var gateEl = document.getElementById("gate");
+      var appEl = document.getElementById("app");
+      var dotsEl = document.getElementById("dots");
+      var msgEl = document.getElementById("gateMsg");
+      var gateInner = document.getElementById("gateInner");
+
+      function paintDots() {
+        var dots = dotsEl.children;
+        for (var i = 0; i < dots.length; i++) dots[i].classList.toggle("filled", i < entered.length);
+      }
+      function pressDigit(d) {
+        if (entered.length >= 4) return;
+        entered += d;
+        msgEl.textContent = "";
+        dotsEl.classList.remove("error");
+        paintDots();
+        if (entered.length === 4) {
+          if (entered === CODE) {
+            gateEl.hidden = true;
+            appEl.hidden = false;
+            window.scrollTo(0, 0);
+          } else {
+            dotsEl.classList.add("error");
+            gateInner.classList.remove("shake");
+            void gateInner.offsetWidth;
+            gateInner.classList.add("shake");
+            msgEl.textContent = "That passcode doesn't match — try again.";
+            setTimeout(function () { entered = ""; paintDots(); dotsEl.classList.remove("error"); }, 650);
+          }
+        }
+      }
+      var keys = document.querySelectorAll(".key[data-d]");
+      for (var i = 0; i < keys.length; i++) keys[i].addEventListener("click", function () { pressDigit(this.getAttribute("data-d")); });
+      document.getElementById("keyClear").addEventListener("click", function () { entered = ""; msgEl.textContent = ""; dotsEl.classList.remove("error"); paintDots(); });
+      document.getElementById("keyBack").addEventListener("click", function () { entered = entered.slice(0, -1); paintDots(); });
+      document.addEventListener("keydown", function (e) {
+        if (!appEl.hidden) {
+          if (e.key === "Escape" && !detailEl.hidden) closeDetail();
+          return;
+        }
+        if (/^[0-9]$/.test(e.key)) pressDigit(e.key);
+        else if (e.key === "Backspace") { entered = entered.slice(0, -1); paintDots(); }
+      });
+      document.getElementById("lockBtn").addEventListener("click", function () {
+        entered = ""; paintDots(); msgEl.textContent = "";
+        closeDetail();
+        appEl.hidden = true;
+        gateEl.hidden = false;
+        window.scrollTo(0, 0);
+      });
+
+      /* ================= Init ================= */
+      renderKpis();
+      renderPosts();
+      renderChart();
+      renderChannels();
+      renderAds();
+    </script>
+  </body>
+</html>
