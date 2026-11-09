@@ -1,5 +1,5 @@
 {
- "updatedLabel": "Thu, Nov 5, 2026 · 7:44 AM ET",
+ "updatedLabel": "Thu, Nov 5, 2026 · 7:46 AM ET",
  "postsDateLabel": "Wednesday, Nov 4",
  "postsFoot": "Story shares (Instagram/Facebook Stories on Nov 4) are tracked separately and are not credited to these posts' own performance in the ~Nov 13 plan verdict.",
  "channels": [
@@ -11,9 +11,9 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 5792,
+   "views": 6254,
    "viewsText": null,
-   "viewsLabel": "Views · Nov 8",
+   "viewsLabel": "Views · Nov 9",
    "eng": null,
    "posts": 8,
    "trend": [
@@ -26,16 +26,17 @@
     3681,
     3878,
     4864,
-    5792
+    5792,
+    6254
    ],
    "trendLabel": "Views · daily",
    "about": "Reels, the morning setup carousel, and Stories. The carousel and the evening video both land here daily; Facebook copies arrive via a manual Instagram share.",
-   "note": "Postiz channel level (30 day query): Views 5792, Likes 81, Comments 5, Shares 5, Saves 5, Replies 0 on Nov 8. Reach daily series: 237 on Nov 4, 121 on Nov 5, 192 on Nov 6, 130 on Nov 7 (Nov 7 is the newest Reach date reported). Follower Count gains: 1 on Nov 4, 0 on Nov 5, 1 on Nov 6 (revised up from 0), 0 on Nov 7.",
+   "note": "Postiz channel level (30 day query): Views 6254, Likes 85, Comments 5, Shares 5, Saves 5, Replies 0 on Nov 9. Reach daily series: 79 on Nov 8 (Nov 8 is the newest Reach date reported). Follower Count: 0 on Nov 8; the Nov 7 point was revised up to 1. Per-post: At 6:45 rose to 174 views, the memory carousel to 171 views, and the three connections carousel to 83 views.",
    "recent": [
     {
      "t": "The three connections setup carousel",
      "when": "Tue, Nov 3",
-     "views": 82,
+     "views": 83,
      "likes": 1,
      "comments": 0,
      "shares": 0,
@@ -53,7 +54,7 @@
     {
      "t": "Give your AI a memory in 5 steps",
      "when": "Sun, Nov 1",
-     "views": 169,
+     "views": 171,
      "likes": 2,
      "comments": 3,
      "shares": 0,
@@ -136,7 +137,7 @@
    "followersNote": null,
    "views": 0,
    "viewsText": null,
-   "viewsLabel": "Page Views · Nov 7",
+   "viewsLabel": "Page Views · Nov 8",
    "eng": null,
    "posts": 12,
    "trend": [
@@ -150,11 +151,12 @@
     0,
     0,
     0,
+    0,
     0
    ],
    "trendLabel": "Page Views · daily",
    "about": "Mirrors the personal profile's production slate — morning carousel and evening video on production days.",
-   "note": "Page Views were 4 on Oct 31, then 0 on Nov 1, Nov 2, Nov 3, Nov 4, Nov 5, Nov 6, and Nov 7 (Nov 7 is the newest date reported). On Nov 7: Clicks 0, Shares 0, Engagement 0, Comments 0.",
+   "note": "Page Views were 4 on Oct 31, then 0 on Nov 1, Nov 2, Nov 3, Nov 4, Nov 5, Nov 6, Nov 7, and Nov 8 (Nov 8 is the newest date reported). On Nov 8: Clicks 0, Shares 0, Engagement 0, Comments 0.",
    "recent": [
     {
      "t": "HVAC gap check",
@@ -202,9 +204,9 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 234,
+   "views": 246,
    "viewsText": null,
-   "viewsLabel": "Page Impressions · Nov 8",
+   "viewsLabel": "Page Impressions · Nov 9",
    "eng": null,
    "posts": 9,
    "trend": [
@@ -219,11 +221,12 @@
     753,
     277,
     234,
-    0
+    246,
+    1
    ],
    "trendLabel": "Page Impressions · daily",
    "about": "Posts arrive via a manual Instagram share (auto-share is unreliable). Page posts are also shared to the Page's own story.",
-   "note": "Page Impressions: 753 on Nov 6, 277 on Nov 7, and 234 on Nov 8 as reported by Postiz (dates recorded exactly as reported; the Nov 8 point was revised up from the partial 3 recorded yesterday, and Nov 9 shows 0 so far). On Nov 8: Media views 266, Posts Engagement 1, Page followers 0. On Nov 7: Media views 311, Posts Engagement 0, Page followers 1. Facebook per-post analytics for photo posts still return 0-impression placeholders, so those posts' stored impression figures were left untouched; reel Plays were updated from per-post analytics.",
+   "note": "Page Impressions: 234 on Nov 8 and 246 on Nov 9 as reported by Postiz (dates recorded exactly as reported; the Nov 9 point was revised up from the partial 0 recorded yesterday, and Nov 10 shows 1 so far). On Nov 9: Media views 262, Posts Engagement 0, Page followers 0. On Nov 8: Media views 266, Posts Engagement 1, Page followers 0. Facebook per-post analytics for photo posts still return 0-impression placeholders, so those posts' stored impression figures were left untouched; reel Plays were updated from per-post analytics.",
    "recent": [
     {
      "t": "The three connections setup carousel",
@@ -271,7 +274,7 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 1534,
+   "views": 1746,
    "viewsText": null,
    "viewsLabel": "Account Views (Postiz)",
    "eng": null,
@@ -286,11 +289,12 @@
     1094,
     1334,
     1475,
-    1534
+    1534,
+    1746
    ],
    "trendLabel": "Account Views (Postiz) · daily",
    "about": "Evening videos only, posted as direct posts so a chosen cover frame can be set from the posting sheet's timestamp.",
-   "note": "The 1534 is Postiz's account-level Views figure dated Nov 8, aggregated across all videos. It is NOT any single video's count. Channel level on Nov 8: Recent Likes 4, Recent Comments 2, Recent Shares 1. Per-video numbers come only from per-post analytics: Episode 1 redo is 119 views, Episode 3 (At 6:45) is 37 views, Post 2 is 154 views, and the Consultant announcement is 106 views — all unchanged this pull. The Desk episode's TikTok, Instagram and Facebook per-post analytics returned empty again this pull, so its stored figures were left as-is. The Family Dashboard tutorial's live TikTok copy is Serge's manual keyword-edition repost (not a Postiz post), so that row is left as-is. The Nov 4 and Nov 5 episodes posted through Postiz have no dashboard post entries yet, so their per-post stats were not written.",
+   "note": "The 1746 is Postiz's account-level Views figure dated Nov 9, aggregated across all videos. It is NOT any single video's count. Channel level on Nov 9: Recent Likes 4, Recent Comments 4, Recent Shares 1. Per-video numbers come only from per-post analytics: Episode 1 redo is 119 views, Post 2 is 154 views, and the Consultant announcement is 106 views — all unchanged this pull. The Desk episode's TikTok, Instagram and Facebook per-post analytics returned empty again this pull, so its stored figures were left as-is. The Family Dashboard tutorial's live TikTok copy is Serge's manual keyword-edition repost (not a Postiz post), so that row is left as-is. Posts from Nov 4 evening onward have no dashboard post entries yet, so their per-post stats were not written.",
    "recent": [
     {
      "t": "The Family Dashboard That Runs Our House",
@@ -338,9 +342,9 @@
    "followers": 30,
    "fDelta": null,
    "followersNote": "30 subscribers · +2 in last 28 days",
-   "views": 85,
+   "views": 93,
    "viewsText": null,
-   "viewsLabel": "Estimated Minutes Watched · Nov 5",
+   "viewsLabel": "Estimated Minutes Watched · Nov 6",
    "eng": null,
    "posts": 4,
    "trend": [
@@ -354,11 +358,12 @@
     26,
     33,
     83,
-    85
+    85,
+    93
    ],
    "trendLabel": "Estimated Minutes Watched · daily",
    "about": "Shorts post through YouTube Studio while the Postiz connection is down; the 'Selenko Uploads' Google Cloud route is in setup. Designed covers are set manually in Studio.",
-   "note": "Postiz daily series now runs through Nov 5 (platform data lags about 2 days). Estimated Minutes Watched: 85 on Nov 5. Average View Duration 194 and Average View Percentage 271.79 on Nov 5; Subscribers Gained 0 and Likes 0 on Nov 5. Postiz now reports Nov 2 as Estimated Minutes Watched 26, Average View Duration 163 and Average View Percentage 193.33 (the previous pull had shown AVD 36 and AVP 43.43 for Nov 2); the figures are recorded exactly as currently reported.",
+   "note": "Postiz daily series now runs through Nov 6 (platform data lags about 2 days). Estimated Minutes Watched: 93 on Nov 6. Average View Duration 185 and Average View Percentage 309.72 on Nov 6; Subscribers Gained 1 and Likes 3 on Nov 6. Postiz revised Oct 29 to Average View Duration 21 and Average View Percentage 3.25, and Oct 31 to 12 and 10.02; the figures are recorded exactly as currently reported.",
    "recent": [
     {
      "t": "The Family Dashboard That Runs Our House",
@@ -406,9 +411,9 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 217,
+   "views": 242,
    "viewsText": null,
-   "viewsLabel": "Impressions · Nov 8",
+   "viewsLabel": "Impressions · Nov 9",
    "eng": null,
    "posts": 4,
    "trend": [
@@ -422,11 +427,12 @@
     213,
     231,
     247,
-    217
+    217,
+    242
    ],
    "trendLabel": "Impressions · daily",
    "about": "Evening videos. No thumbnail support through Postiz — the video's own frame carries the cover.",
-   "note": "Postiz channel level (30 day query): Impressions 217 on Nov 8 (Postiz reported 247 on Nov 7; the figure is recorded exactly as reported). Likes 1 and Replies 1 on Nov 8; Retweets, Quotes and Bookmarks all 0 on Nov 8.",
+   "note": "Postiz channel level (30 day query): Impressions 242 on Nov 9 (Postiz reported 217 on Nov 8; the figure is recorded exactly as reported). Likes 1 and Replies 1 on Nov 9; Retweets, Quotes and Bookmarks all 0 on Nov 9.",
    "recent": [
     {
      "t": "The Family Dashboard That Runs Our House",
@@ -506,7 +512,7 @@
   "platform": "Meta (Facebook & Instagram)",
   "status": "Active",
   "since": "Nov 2, 2026",
-  "windowLabel": "Nov 2 – Nov 8, 2026",
+  "windowLabel": "Nov 2 – Nov 9, 2026",
   "spend": 36.32,
   "impressions": 2811,
   "reach": 2371,
@@ -554,19 +560,19 @@
  "site": {
   "sessions": 42,
   "pageViews": 43,
-  "windowLabel": "Nov 3 – Nov 8, 2026",
+  "windowLabel": "Nov 3 – Nov 9, 2026",
   "hostLabel": "trades.selenko.com · GA4",
   "linksEntries": null,
   "signupClicks": null,
   "contactClicks": null,
   "gsc": {
-   "impressions": 68,
+   "impressions": 69,
    "clicks": 2,
-   "windowLabel": "Oct 11 – Nov 8, 2026",
+   "windowLabel": "Oct 12 – Nov 9, 2026",
    "topQuery": "selenko",
    "topQueryImpressions": 25
   },
-  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 68 impressions · 2 clicks · Oct 11 – Nov 8, 2026 · top query 'selenko' (25 impressions)."
+  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 69 impressions · 2 clicks · Oct 12 – Nov 9, 2026 · top query 'selenko' (25 impressions)."
  },
  "kpis": [
   {
