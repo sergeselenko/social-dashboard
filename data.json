@@ -1,6 +1,6 @@
 {
- "updatedLabel": "Thu, Nov 5, 2026 · 7:46 AM ET",
- "postsDateLabel": "Wednesday, Nov 4",
+ "updatedLabel": "Thu, Nov 5, 2026 · 7:51 AM ET",
+ "postsDateLabel": "Monday, Nov 9",
  "postsFoot": "Story shares (Instagram/Facebook Stories on Nov 4) are tracked separately and are not credited to these posts' own performance in the ~Nov 13 plan verdict.",
  "channels": [
   {
@@ -11,11 +11,11 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 6254,
+   "views": 6440,
    "viewsText": null,
-   "viewsLabel": "Views · Nov 9",
+   "viewsLabel": "Views · Nov 10",
    "eng": null,
-   "posts": 8,
+   "posts": 10,
    "trend": [
     1828,
     2119,
@@ -27,44 +27,45 @@
     3878,
     4864,
     5792,
-    6254
+    6254,
+    6440
    ],
    "trendLabel": "Views · daily",
    "about": "Reels, the morning setup carousel, and Stories. The carousel and the evening video both land here daily; Facebook copies arrive via a manual Instagram share.",
-   "note": "Postiz channel level (30 day query): Views 6254, Likes 85, Comments 5, Shares 5, Saves 5, Replies 0 on Nov 9. Reach daily series: 79 on Nov 8 (Nov 8 is the newest Reach date reported). Follower Count: 0 on Nov 8; the Nov 7 point was revised up to 1. Per-post: At 6:45 rose to 174 views, the memory carousel to 171 views, and the three connections carousel to 83 views.",
+   "note": "Postiz channel level (30 day query): Views 6440, Likes 103, Comments 5, Shares 5, Saves 5, Replies 0 on Nov 10. Reach daily series: 88 on Nov 9 (Nov 9 is the newest Reach date reported). Follower Count: 0 on Nov 9.",
    "recent": [
     {
-     "t": "The three connections setup carousel",
-     "when": "Tue, Nov 3",
-     "views": 83,
+     "t": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
+     "when": "Mon, Nov 9",
+     "views": 158,
      "likes": 1,
      "comments": 0,
      "shares": 0,
      "saves": 0
     },
     {
-     "t": "The Family Dashboard That Runs Our House",
-     "when": "Sun, Nov 1",
-     "views": 170,
-     "likes": 3,
-     "comments": 0,
-     "shares": 1,
-     "saves": 1
-    },
-    {
-     "t": "Give your AI a memory in 5 steps",
-     "when": "Sun, Nov 1",
-     "views": 171,
+     "t": "Notebook video: Give Your AI a Notebook It Can Write In",
+     "when": "Mon, Nov 9",
+     "views": 71,
      "likes": 2,
-     "comments": 3,
+     "comments": 0,
      "shares": 0,
      "saves": 0
     },
     {
-     "t": "5 things our family agent does before we wake up",
-     "when": "Sat, Oct 31",
-     "views": 223,
+     "t": "Coach carousel (Nov 8)",
+     "when": "Sun, Nov 8",
+     "views": 221,
      "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "Coach V4 video: AI Negotiation Coach, the 9 PM back-and-forth",
+     "when": "Sun, Nov 8",
+     "views": 116,
+     "likes": 4,
      "comments": 0,
      "shares": 0,
      "saves": 0
@@ -76,53 +77,53 @@
    "name": "LinkedIn — personal",
    "handle": "Serge Osaulenko",
    "color": "#0a66c2",
-   "followers": null,
+   "followers": 2088,
    "fDelta": null,
-   "followersNote": null,
+   "followersNote": "2,088 followers · Metricool read Nov 10, 2026",
    "views": null,
-   "viewsText": "Post 2: 41 impressions",
-   "viewsLabel": "In-app read · Oct 30",
+   "viewsText": "31 posts · 1,464 total",
+   "viewsLabel": "Per-post impressions · through Nov 9",
    "eng": null,
-   "posts": 11,
+   "posts": 9,
    "trend": null,
    "trendLabel": null,
    "about": "Lead surface: the morning carousel and the evening video both post here on production days, as two differentiated posts. Native video uploads only. Postiz returns no analytics for the personal profile — figures are read manually in the LinkedIn app.",
-   "note": "Postiz returns no analytics for the personal profile (empty result), so numbers are read in LinkedIn itself, weekly. First read Fri Oct 30, 2026 (~4:05 PM ET): Post 2 (Oct 28) 41 impressions, 0 engagement; Consultant announcement (Oct 28) 26 impressions, 1 reaction; Episode 1 (Oct 29) 25 impressions, 10 video views, 1 comment (own); story post (Oct 30, ~5h old) 1 impression and 1 Save. Audience confirmed public by behavior (out-of-network impressions on all four; Post 2 viewable as a guest). Full record: ~/workspace/social-presence/LINKEDIN-PERSONAL-READS.md.",
+   "note": "Per-post data from Metricool (period Oct 11 to Nov 9), backfilled by the analytics lane sweep Nov 10, 2026. Window shifted from the Nov 9 read (Oct 8 to Nov 8, 1,548), so totals are not a growth delta. New rows: W2 carousel (Nov 9) 18 impressions; Notebook video (Nov 9) 17 impressions and 5 video views. Clicks 0 and shares 0 on every post; reactions 9 and comments 2 across the surface.",
    "recent": [
     {
-     "t": "HVAC gap check",
-     "when": "Wed, Nov 4",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "shares": null,
+     "t": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
+     "when": "Mon, Nov 9",
+     "views": 18,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
      "saves": null
     },
     {
-     "t": "The three connections setup carousel",
-     "when": "Tue, Nov 3",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "shares": null,
+     "t": "Notebook video: Give Your AI a Notebook It Can Write In",
+     "when": "Mon, Nov 9",
+     "views": 5,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
      "saves": null
     },
     {
-     "t": "Compaction card",
-     "when": "Mon, Nov 2",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "shares": null,
+     "t": "Coach carousel (Nov 8)",
+     "when": "Sun, Nov 8",
+     "views": 10,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
      "saves": null
     },
     {
-     "t": "The same database idea runs our house",
-     "when": "Mon, Nov 2",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "shares": null,
+     "t": "Morning Page carousel (Nov 7)",
+     "when": "Sat, Nov 7",
+     "views": 26,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
      "saves": null
     }
    ]
@@ -135,11 +136,11 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 0,
+   "views": 4,
    "viewsText": null,
-   "viewsLabel": "Page Views · Nov 8",
+   "viewsLabel": "Page Views · Nov 9",
    "eng": null,
-   "posts": 12,
+   "posts": 7,
    "trend": [
     4,
     0,
@@ -152,46 +153,47 @@
     0,
     0,
     0,
-    0
+    0,
+    4
    ],
    "trendLabel": "Page Views · daily",
    "about": "Mirrors the personal profile's production slate — morning carousel and evening video on production days.",
-   "note": "Page Views were 4 on Oct 31, then 0 on Nov 1, Nov 2, Nov 3, Nov 4, Nov 5, Nov 6, Nov 7, and Nov 8 (Nov 8 is the newest date reported). On Nov 8: Clicks 0, Shares 0, Engagement 0, Comments 0.",
+   "note": "Page Views were 4 on Oct 31, then 0 on Nov 1, Nov 2, Nov 3, Nov 4, Nov 5, Nov 6, Nov 7, and Nov 8, and 4 on Nov 9 (Nov 9 is the newest date reported). On Nov 9: Clicks 0, Shares 0, Engagement 0, Comments 0.",
    "recent": [
     {
-     "t": "HVAC gap check",
-     "when": "Wed, Nov 4",
-     "views": 10,
+     "t": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
+     "when": "Mon, Nov 9",
+     "views": 4,
      "likes": 0,
      "comments": 0,
      "shares": 0,
      "saves": null
     },
     {
-     "t": "The three connections setup carousel",
-     "when": "Tue, Nov 3",
-     "views": null,
-     "likes": 0,
-     "comments": 0,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "Compaction card",
-     "when": "Mon, Nov 2",
-     "views": 2,
+     "t": "Notebook video: Give Your AI a Notebook It Can Write In",
+     "when": "Mon, Nov 9",
+     "views": 1,
      "likes": 0,
      "comments": 0,
      "shares": 0,
      "saves": null
     },
     {
-     "t": "The Family Dashboard That Runs Our House",
-     "when": "Sun, Nov 1",
-     "views": null,
+     "t": "Coach carousel (Nov 8)",
+     "when": "Sun, Nov 8",
+     "views": 3,
      "likes": 0,
      "comments": 0,
-     "shares": null,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Coach V4 video: AI Negotiation Coach, the 9 PM back-and-forth",
+     "when": "Sun, Nov 8",
+     "views": 1,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
      "saves": null
     }
    ]
@@ -204,11 +206,11 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 246,
+   "views": 148,
    "viewsText": null,
-   "viewsLabel": "Page Impressions · Nov 9",
+   "viewsLabel": "Page Impressions · Nov 10",
    "eng": null,
-   "posts": 9,
+   "posts": 10,
    "trend": [
     0,
     215,
@@ -222,46 +224,47 @@
     277,
     234,
     246,
-    1
+    148,
+    4
    ],
    "trendLabel": "Page Impressions · daily",
    "about": "Posts arrive via a manual Instagram share (auto-share is unreliable). Page posts are also shared to the Page's own story.",
-   "note": "Page Impressions: 234 on Nov 8 and 246 on Nov 9 as reported by Postiz (dates recorded exactly as reported; the Nov 9 point was revised up from the partial 0 recorded yesterday, and Nov 10 shows 1 so far). On Nov 9: Media views 262, Posts Engagement 0, Page followers 0. On Nov 8: Media views 266, Posts Engagement 1, Page followers 0. Facebook per-post analytics for photo posts still return 0-impression placeholders, so those posts' stored impression figures were left untouched; reel Plays were updated from per-post analytics.",
+   "note": "Page Impressions: 246 on Nov 9 and 148 on Nov 10 as reported by Postiz (dates recorded exactly as reported; Nov 11 shows 4 so far). On Nov 10: Media views 182, Posts Engagement 2, Page followers 0. On Nov 9: Media views 262, Posts Engagement 0, Page followers 0. Facebook per-post analytics for photo posts still return the 0-impression placeholder bucket, so those posts' stored impression figures were left untouched; reel Plays were updated from per-post analytics.",
    "recent": [
     {
-     "t": "The three connections setup carousel",
-     "when": "Tue, Nov 3",
-     "views": 2,
+     "t": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
+     "when": "Mon, Nov 9",
+     "views": 6,
      "likes": 0,
-     "comments": null,
-     "shares": null,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "Notebook video: Give Your AI a Notebook It Can Write In",
+     "when": "Mon, Nov 9",
+     "views": 155,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "Coach carousel (Nov 8)",
+     "when": "Sun, Nov 8",
+     "views": 8,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
      "saves": null
     },
     {
-     "t": "Compaction card",
-     "when": "Mon, Nov 2",
-     "views": 2,
+     "t": "Coach V4 video: AI Negotiation Coach, the 9 PM back-and-forth",
+     "when": "Sun, Nov 8",
+     "views": 264,
      "likes": 0,
-     "comments": null,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "The Family Dashboard That Runs Our House",
-     "when": "Sun, Nov 1",
-     "views": 253,
-     "likes": 0,
-     "comments": null,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "The family dashboard, in 6 steps",
-     "when": "Sun, Nov 1",
-     "views": 3,
-     "likes": 0,
-     "comments": null,
-     "shares": null,
+     "comments": 0,
+     "shares": 0,
      "saves": null
     }
    ]
@@ -274,11 +277,11 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 1746,
+   "views": 1854,
    "viewsText": null,
    "viewsLabel": "Account Views (Postiz)",
    "eng": null,
-   "posts": 4,
+   "posts": 6,
    "trend": [
     743,
     853,
@@ -290,45 +293,46 @@
     1334,
     1475,
     1534,
-    1746
+    1746,
+    1854
    ],
    "trendLabel": "Account Views (Postiz) · daily",
    "about": "Evening videos only, posted as direct posts so a chosen cover frame can be set from the posting sheet's timestamp.",
-   "note": "The 1746 is Postiz's account-level Views figure dated Nov 9, aggregated across all videos. It is NOT any single video's count. Channel level on Nov 9: Recent Likes 4, Recent Comments 4, Recent Shares 1. Per-video numbers come only from per-post analytics: Episode 1 redo is 119 views, Post 2 is 154 views, and the Consultant announcement is 106 views — all unchanged this pull. The Desk episode's TikTok, Instagram and Facebook per-post analytics returned empty again this pull, so its stored figures were left as-is. The Family Dashboard tutorial's live TikTok copy is Serge's manual keyword-edition repost (not a Postiz post), so that row is left as-is. Posts from Nov 4 evening onward have no dashboard post entries yet, so their per-post stats were not written.",
+   "note": "The 1854 is Postiz's account-level Views figure dated Nov 10, aggregated across all videos. It is NOT any single video's count. Channel level on Nov 10: Recent Likes 5, Recent Comments 5, Recent Shares 1. Per-video numbers come only from per-post analytics (Notebook 106 views, Episode 1 redo 119 views, Post 2 154 views, Consultant announcement 106 views). The Desk episode's TikTok, Instagram and Facebook per-post analytics returned empty again this pull, so its stored figures were left as-is. The Family Dashboard tutorial's live TikTok copy is Serge's manual keyword-edition repost (not a Postiz post), so that row is left as-is.",
    "recent": [
     {
-     "t": "The Family Dashboard That Runs Our House",
-     "when": "Sun, Nov 1",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "At 6:45, My Phone Hands Me My Day",
-     "when": "Sat, Oct 31",
-     "views": 37,
-     "likes": 0,
-     "comments": 0,
+     "t": "Notebook video: Give Your AI a Notebook It Can Write In",
+     "when": "Mon, Nov 9",
+     "views": 106,
+     "likes": 1,
+     "comments": 1,
      "shares": 0,
      "saves": null
     },
     {
-     "t": "Your AI Has a Desk, Not a Filing Cabinet",
-     "when": "Fri, Oct 30",
+     "t": "Dashboard Story, fronted redo (test, Nov 8)",
+     "when": "Sun, Nov 8",
      "views": 106,
      "likes": 0,
-     "comments": 0,
+     "comments": 1,
      "shares": 0,
      "saves": null
     },
     {
-     "t": "Series Episode 1 — “Out of the jar”",
-     "when": "Thu, Oct 29",
-     "views": 119,
+     "t": "Coach V4 video: AI Negotiation Coach, the 9 PM back-and-forth",
+     "when": "Sun, Nov 8",
+     "views": 105,
      "likes": 0,
-     "comments": 0,
+     "comments": 1,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Dashboard Story video (Jen): one unanswered email cost her buyers money",
+     "when": "Sat, Nov 7",
+     "views": 26,
+     "likes": 0,
+     "comments": 1,
      "shares": 0,
      "saves": null
     }
@@ -339,14 +343,14 @@
    "name": "YouTube",
    "handle": "@sergeosaulenko",
    "color": "#e62117",
-   "followers": 30,
+   "followers": 32,
    "fDelta": null,
-   "followersNote": "30 subscribers · +2 in last 28 days",
-   "views": 93,
+   "followersNote": "32 subscribers · +3 in last 28 days",
+   "views": 32,
    "viewsText": null,
-   "viewsLabel": "Estimated Minutes Watched · Nov 6",
+   "viewsLabel": "Subscribers · Studio read Nov 10",
    "eng": null,
-   "posts": 4,
+   "posts": 6,
    "trend": [
     16,
     87,
@@ -359,46 +363,47 @@
     33,
     83,
     85,
-    93
+    93,
+    115
    ],
    "trendLabel": "Estimated Minutes Watched · daily",
    "about": "Shorts post through YouTube Studio while the Postiz connection is down; the 'Selenko Uploads' Google Cloud route is in setup. Designed covers are set manually in Studio.",
-   "note": "Postiz daily series now runs through Nov 6 (platform data lags about 2 days). Estimated Minutes Watched: 93 on Nov 6. Average View Duration 185 and Average View Percentage 309.72 on Nov 6; Subscribers Gained 1 and Likes 3 on Nov 6. Postiz revised Oct 29 to Average View Duration 21 and Average View Percentage 3.25, and Oct 31 to 12 and 10.02; the figures are recorded exactly as currently reported.",
+   "note": "YouTube Studio read Nov 10, 2026 (5:41 to 5:54 AM ET), Advanced mode lifetime through Nov 9: 32 subscribers, last 28 days 1.3K views and 14.7 watch hours. Notebook video (Nov 9): 47 views through Nov 9 and climbing in realtime (68 to 70 during the read), 1.4 watch hours, first share recorded. Skill-Serge (Nov 6) still strongest at 248 views, 61.1% avg viewed. No new comments since Nov 9, 11 PM.",
    "recent": [
     {
-     "t": "The Family Dashboard That Runs Our House",
-     "when": "Sun, Nov 1",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "At 6:45, My Phone Hands Me My Day",
-     "when": "Sat, Oct 31",
-     "views": 46,
-     "likes": 0,
-     "comments": 0,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "Your AI Has a Desk, Not a Filing Cabinet",
-     "when": "Fri, Oct 30",
-     "views": 245,
-     "likes": 3,
-     "comments": 0,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "Series Episode 1 — “Out of the jar”",
-     "when": "Thu, Oct 29",
-     "views": 8,
+     "t": "Notebook video: Give Your AI a Notebook It Can Write In",
+     "when": "Mon, Nov 9",
+     "views": 47,
      "likes": 0,
      "comments": 1,
-     "shares": null,
+     "shares": 1,
+     "saves": null
+    },
+    {
+     "t": "Dashboard Story, fronted redo (test, Nov 8)",
+     "when": "Sun, Nov 8",
+     "views": 23,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Coach V4 video: AI Negotiation Coach, the 9 PM back-and-forth",
+     "when": "Sun, Nov 8",
+     "views": 17,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Dashboard Story video (Jen): one unanswered email cost her buyers money",
+     "when": "Sat, Nov 7",
+     "views": 30,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
      "saves": null
     }
    ]
@@ -411,11 +416,11 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 242,
+   "views": 296,
    "viewsText": null,
-   "viewsLabel": "Impressions · Nov 9",
+   "viewsLabel": "Impressions · Nov 10",
    "eng": null,
-   "posts": 4,
+   "posts": 8,
    "trend": [
     19,
     19,
@@ -428,83 +433,196 @@
     231,
     247,
     217,
-    242
+    242,
+    296
    ],
    "trendLabel": "Impressions · daily",
    "about": "Evening videos. No thumbnail support through Postiz — the video's own frame carries the cover.",
-   "note": "Postiz channel level (30 day query): Impressions 242 on Nov 9 (Postiz reported 217 on Nov 8; the figure is recorded exactly as reported). Likes 1 and Replies 1 on Nov 9; Retweets, Quotes and Bookmarks all 0 on Nov 9.",
+   "note": "Postiz channel level (30 day query): Impressions 296 on Nov 10 (Postiz reported 242 on Nov 9; the figure is recorded exactly as reported). Likes 1 and Replies 1 on Nov 10; Retweets, Quotes and Bookmarks all 0 on Nov 10.",
    "recent": [
     {
-     "t": "The Family Dashboard That Runs Our House",
-     "when": "Sun, Nov 1",
-     "views": 17,
-     "likes": 1,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "At 6:45, My Phone Hands Me My Day",
-     "when": "Sat, Oct 31",
-     "views": 30,
-     "likes": 0,
-     "comments": 1,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Your AI Has a Desk, Not a Filing Cabinet",
-     "when": "Fri, Oct 30",
-     "views": 13,
+     "t": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
+     "when": "Mon, Nov 9",
+     "views": 12,
      "likes": 0,
      "comments": 0,
-     "shares": 0,
-     "saves": 0
+     "shares": null,
+     "saves": null
     },
     {
-     "t": "Series Episode 1 — “Out of the jar”",
-     "when": "Thu, Oct 29",
-     "views": 22,
+     "t": "Notebook video: Give Your AI a Notebook It Can Write In",
+     "when": "Mon, Nov 9",
+     "views": 20,
      "likes": 0,
      "comments": 0,
-     "shares": 0,
-     "saves": 0
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Coach carousel (Nov 8)",
+     "when": "Sun, Nov 8",
+     "views": 2,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Coach V4 video: AI Negotiation Coach, the 9 PM back-and-forth",
+     "when": "Sun, Nov 8",
+     "views": 18,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
     }
    ]
   }
  ],
  "posts": [
   {
-   "id": "s17-66",
+   "id": "s24-97",
    "time": null,
-   "title": "HVAC gap check",
-   "channel": "linkedin",
-   "channelLabel": "LinkedIn",
-   "format": "image",
+   "title": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
+   "channel": "x",
+   "channelLabel": "X",
+   "format": "carousel",
    "views": null,
-   "impressions": null,
-   "likes": null,
-   "comments": null,
+   "impressions": 12,
+   "likes": 0,
+   "comments": 0,
    "shares": null,
    "saves": null,
-   "url": "https://www.linkedin.com/feed/update/urn:li:share:7523733463448027136",
-   "note": "CORRECTED Nov 4: the original 13:00 UTC attempt actually PUBLISHED on both legs (personal urn:li:share:7523731089064984577; Page urn:li:share:7523730996333236224). A transient ERROR read-back led to the one allowed retry, which also published at 13:10 UTC (personal urn:li:share:7523733463448027136; Page urn:li:share:7523733465318555648). The post is therefore DUPLICATED on both LinkedIn accounts; all four URLs live as of 13:14 UTC read-back. Dashboard points at the original scheduled pair. No deletion taken — Serge to rule which copy stays.\nRESOLVED IN PART Nov 4 ~9:05 AM ET: Serge deleted the"
+   "url": "https://twitter.com/sergeosaulenko/status/2119875685112053794",
+   "note": "Seven-card W2 set, posted Nov 9 ~2:32 PM ET; Serge completed both his share steps. All 135 IG views are follower views; 0 saves. Backfilled by the analytics lane sweep, Nov 9, 2026."
   },
   {
-   "id": "s17-67",
+   "id": "s24-98",
    "time": null,
-   "title": "HVAC gap check",
+   "title": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
+   "channel": "facebook-page",
+   "channelLabel": "Facebook Page",
+   "format": "carousel",
+   "views": 6,
+   "impressions": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "url": "https://www.facebook.com/122132259818882149/posts/122133881168882149",
+   "note": "Seven-card W2 set, posted Nov 9 ~2:32 PM ET; Serge completed both his share steps. All 135 IG views are follower views; 0 saves. Backfilled by the analytics lane sweep, Nov 9, 2026."
+  },
+  {
+   "id": "s24-99",
+   "time": null,
+   "title": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
+   "channel": "instagram",
+   "channelLabel": "Instagram",
+   "format": "carousel",
+   "views": 158,
+   "impressions": null,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "url": "https://www.instagram.com/p/DfiFwr4lgLK/",
+   "note": "Seven-card W2 set, posted Nov 9 ~2:32 PM ET; Serge completed both his share steps. All 135 IG views are follower views; 0 saves. Backfilled by the analytics lane sweep, Nov 9, 2026."
+  },
+  {
+   "id": "s24-117",
+   "time": null,
+   "title": "W2 carousel: the four-part AI setup (Second Brain, Skills, Morning Page, Negotiator)",
    "channel": "linkedin-page",
    "channelLabel": "LinkedIn Page",
-   "format": "image",
+   "format": "carousel",
    "views": null,
-   "impressions": 10,
+   "impressions": 4,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "url": "https://www.linkedin.com/feed/update/urn:li:share:7523733465318555648",
-   "note": "CORRECTED Nov 4: the original 13:00 UTC attempt actually PUBLISHED on both legs (personal urn:li:share:7523731089064984577; Page urn:li:share:7523730996333236224). A transient ERROR read-back led to the one allowed retry, which also published at 13:10 UTC (personal urn:li:share:7523733463448027136; Page urn:li:share:7523733465318555648). The post is therefore DUPLICATED on both LinkedIn accounts; all four URLs live as of 13:14 UTC read-back. Dashboard points at the original scheduled pair. No deletion taken — Serge to rule which copy stays.\nRESOLVED IN PART Nov 4 ~9:05 AM ET: Serge deleted the"
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525641467483127808",
+   "note": "Seven-card W2 set, posted Nov 9 ~2:32 PM ET; Serge completed both his share steps. All 135 IG views are follower views; 0 saves. Backfilled by the analytics lane sweep, Nov 9, 2026."
+  },
+  {
+   "id": "s19-68",
+   "time": null,
+   "title": "Notebook video: Give Your AI a Notebook It Can Write In",
+   "channel": "instagram",
+   "channelLabel": "Instagram",
+   "format": "video",
+   "views": 71,
+   "impressions": null,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "url": "https://www.instagram.com/reel/Dfi6R5tmf7N/",
+   "note": "Produced Notebook episode (V3), posted Nov 9 ~10:11 PM ET. Story-shared by Serge immediately at posting (his standing rule), so Instagram is story-assisted from posting; also shared to his Facebook personal profile. Sweep #2 read ~55 min after posting: IG avg watch 11.6s, best in the slate. Nov 10 sweep (~7.5h): IG 54 views (16 follower / 38 non-follower), skip rate 56.8%, now the slate's best; TikTok 106, Facebook Page 153, YouTube still climbing past 47. Backfilled by the analytics lane."
+  },
+  {
+   "id": "s19-73",
+   "time": null,
+   "title": "Notebook video: Give Your AI a Notebook It Can Write In",
+   "channel": "x",
+   "channelLabel": "X",
+   "format": "video",
+   "views": null,
+   "impressions": 20,
+   "likes": 0,
+   "comments": 0,
+   "shares": null,
+   "saves": null,
+   "url": "https://twitter.com/sergeosaulenko/status/2119991458434371668",
+   "note": "Produced Notebook episode (V3), posted Nov 9 ~10:11 PM ET. Story-shared by Serge immediately at posting (his standing rule), so Instagram is story-assisted from posting; also shared to his Facebook personal profile. Sweep #2 read ~55 min after posting: IG avg watch 11.6s, best in the slate. Nov 10 sweep (~7.5h): IG 54 views (16 follower / 38 non-follower), skip rate 56.8%, now the slate's best; TikTok 106, Facebook Page 153, YouTube still climbing past 47. Backfilled by the analytics lane."
+  },
+  {
+   "id": "s19-74",
+   "time": null,
+   "title": "Notebook video: Give Your AI a Notebook It Can Write In",
+   "channel": "facebook-page",
+   "channelLabel": "Facebook Page",
+   "format": "video",
+   "views": 155,
+   "impressions": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "url": "https://www.facebook.com/reel/1143605534853106",
+   "note": "Produced Notebook episode (V3), posted Nov 9 ~10:11 PM ET. Story-shared by Serge immediately at posting (his standing rule), so Instagram is story-assisted from posting; also shared to his Facebook personal profile. Sweep #2 read ~55 min after posting: IG avg watch 11.6s, best in the slate. Nov 10 sweep (~7.5h): IG 54 views (16 follower / 38 non-follower), skip rate 56.8%, now the slate's best; TikTok 106, Facebook Page 153, YouTube still climbing past 47. Backfilled by the analytics lane."
+  },
+  {
+   "id": "s19-75",
+   "time": null,
+   "title": "Notebook video: Give Your AI a Notebook It Can Write In",
+   "channel": "tiktok",
+   "channelLabel": "TikTok",
+   "format": "video",
+   "views": 106,
+   "impressions": null,
+   "likes": 1,
+   "comments": 1,
+   "shares": 0,
+   "saves": null,
+   "url": "https://www.tiktok.com/@serge.osaulenko/video/7706375044573760781",
+   "note": "Produced Notebook episode (V3), posted Nov 9 ~10:11 PM ET. Story-shared by Serge immediately at posting (his standing rule), so Instagram is story-assisted from posting; also shared to his Facebook personal profile. Sweep #2 read ~55 min after posting: IG avg watch 11.6s, best in the slate. Nov 10 sweep (~7.5h): IG 54 views (16 follower / 38 non-follower), skip rate 56.8%, now the slate's best; TikTok 106, Facebook Page 153, YouTube still climbing past 47. Backfilled by the analytics lane."
+  },
+  {
+   "id": "s19-116",
+   "time": null,
+   "title": "Notebook video: Give Your AI a Notebook It Can Write In",
+   "channel": "linkedin-page",
+   "channelLabel": "LinkedIn Page",
+   "format": "video",
+   "views": 1,
+   "impressions": 1,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525757157489680385",
+   "note": "Produced Notebook episode (V3), posted Nov 9 ~10:11 PM ET. Story-shared by Serge immediately at posting (his standing rule), so Instagram is story-assisted from posting; also shared to his Facebook personal profile. Sweep #2 read ~55 min after posting: IG avg watch 11.6s, best in the slate. Nov 10 sweep (~7.5h): IG 54 views (16 follower / 38 non-follower), skip rate 56.8%, now the slate's best; TikTok 106, Facebook Page 153, YouTube still climbing past 47. Backfilled by the analytics lane."
   }
  ],
  "campaign": {
@@ -512,7 +630,7 @@
   "platform": "Meta (Facebook & Instagram)",
   "status": "Active",
   "since": "Nov 2, 2026",
-  "windowLabel": "Nov 2 – Nov 9, 2026",
+  "windowLabel": "Nov 2 – Nov 10, 2026",
   "spend": 36.32,
   "impressions": 2811,
   "reach": 2371,
@@ -560,19 +678,19 @@
  "site": {
   "sessions": 42,
   "pageViews": 43,
-  "windowLabel": "Nov 3 – Nov 9, 2026",
+  "windowLabel": "Nov 3 – Nov 10, 2026",
   "hostLabel": "trades.selenko.com · GA4",
   "linksEntries": null,
   "signupClicks": null,
   "contactClicks": null,
   "gsc": {
-   "impressions": 69,
+   "impressions": 75,
    "clicks": 2,
-   "windowLabel": "Oct 12 – Nov 9, 2026",
+   "windowLabel": "Oct 13 – Nov 10, 2026",
    "topQuery": "selenko",
-   "topQueryImpressions": 25
+   "topQueryImpressions": 24
   },
-  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 69 impressions · 2 clicks · Oct 12 – Nov 9, 2026 · top query 'selenko' (25 impressions)."
+  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 75 impressions · 2 clicks · Oct 13 – Nov 10, 2026 · top query 'selenko' (24 impressions)."
  },
  "kpis": [
   {
@@ -582,13 +700,13 @@
   },
   {
    "label": "Engagement · latest posts",
-   "value": "0",
-   "sub": "likes, comments, shares &amp; saves · reported on 1 of 2 legs"
+   "value": "5",
+   "sub": "likes, comments, shares &amp; saves · reported on 9 of 9 legs"
   },
   {
    "label": "Followers · reported channels",
-   "value": "30",
-   "sub": "only YouTube reports a count"
+   "value": "2,120",
+   "sub": "only LinkedIn — personal, YouTube reports a count"
   },
   {
    "label": "Ad spend · HVAC campaign",
