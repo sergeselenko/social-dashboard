@@ -1,5 +1,5 @@
 {
- "updatedLabel": "Thu, Nov 5, 2026 · 7:49 AM ET",
+ "updatedLabel": "Thu, Nov 5, 2026 · 7:46 AM ET",
  "postsDateLabel": "Thursday, Nov 12",
  "postsFoot": "Story shares (Instagram/Facebook Stories on Nov 4) are tracked separately and are not credited to these posts' own performance in the ~Nov 13 plan verdict.",
  "channels": [
@@ -11,11 +11,11 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 7402,
+   "views": 7817,
    "viewsText": null,
-   "viewsLabel": "Views · Nov 12",
+   "viewsLabel": "Views · Nov 13",
    "eng": null,
-   "posts": 11,
+   "posts": 13,
    "trend": [
     1828,
     2119,
@@ -30,16 +30,35 @@
     6254,
     6440,
     6828,
-    7402
+    7402,
+    7817
    ],
    "trendLabel": "Views · daily",
    "about": "Reels, the morning setup carousel, and Stories. The carousel and the evening video both land here daily; Facebook copies arrive via a manual Instagram share.",
-   "note": "Postiz channel level (30 day query): Views 7402, Likes 122, Comments 5, Shares 4, Saves 5, Replies 0 on Nov 12. Reach daily series: 142 on Nov 11 (newest Reach date reported). Follower Count: 0 on Nov 11.",
+   "note": "Postiz channel level (30 day query): Views 7817, Likes 130, Comments 5, Shares 4, Saves 5, Replies 0 on Nov 13. Reach daily series: 112 on Nov 12 (newest Reach date reported). Follower Count: 0 on Nov 12.",
    "recent": [
+    {
+     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 54,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 144,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
     {
      "t": "Second Brain video: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
-     "views": 136,
+     "views": 185,
      "likes": 3,
      "comments": 0,
      "shares": 0,
@@ -48,25 +67,7 @@
     {
      "t": "Second Brain carousel: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
-     "views": 168,
-     "likes": 1,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Workshop Day video V2: Never Open Your CRM Again (calm intro, no PiP)",
-     "when": "Tue, Nov 10",
-     "views": 121,
-     "likes": 2,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Workshop Day carousel: Most agents never open their CRM (Leads Manager)",
-     "when": "Tue, Nov 10",
-     "views": 56,
+     "views": 181,
      "likes": 1,
      "comments": 0,
      "shares": 0,
@@ -81,21 +82,39 @@
    "color": "#0a66c2",
    "followers": 2087,
    "fDelta": null,
-   "followersNote": "2,087 followers · Metricool read Nov 12, 2026",
+   "followersNote": "2,087 followers · Metricool read Nov 13, 2026",
    "views": null,
-   "viewsText": "34 posts",
-   "viewsLabel": "Per-post impressions · through Nov 11",
+   "viewsText": "37 posts",
+   "viewsLabel": "Per-post impressions · through Nov 12",
    "eng": null,
-   "posts": 11,
+   "posts": 13,
    "trend": null,
    "trendLabel": null,
    "about": "Lead surface: the morning carousel and the evening video both post here on production days, as two differentiated posts. Native video uploads only. Postiz returns no analytics for the personal profile — figures are read manually in the LinkedIn app.",
-   "note": "Per-post data from Metricool (period Oct 13-Nov 11), backfilled by the analytics lane sweep Nov 12, 2026. Followers 2,087 unchanged. New rows: Second Brain video (Nov 11) 15 impressions / 6 video views; Second Brain carousel 9 impressions. Workshop V2 32→40 impressions; Workshop carousel (story-clean) 18→19; Notebook 27→29 impressions / 7 video views.",
+   "note": "Per-post data from Metricool (period Oct 14-Nov 12), backfilled by the analytics lane sweep Nov 13, 2026. Followers 2,087 unchanged. New rows: Short 01 20 impressions / 4 video views; Email Fix carousel 18; roofing post 35. Second Brain video 15→22 impressions; Second Brain carousel 9→11; Workshop V2 40→41.",
    "recent": [
+    {
+     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 4,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 18,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Roofing Acquisition Prep",
      "when": "Thu, Nov 12",
-     "views": null,
+     "views": 35,
      "likes": null,
      "comments": null,
      "shares": null,
@@ -105,24 +124,6 @@
      "t": "Second Brain video: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
      "views": 6,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": null
-    },
-    {
-     "t": "Second Brain carousel: You are your AI's memory (Nov 11)",
-     "when": "Wed, Nov 11",
-     "views": 9,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": null
-    },
-    {
-     "t": "Workshop Day video V2: Never Open Your CRM Again (calm intro, no PiP)",
-     "when": "Tue, Nov 10",
-     "views": 5,
      "likes": 0,
      "comments": 0,
      "shares": 0,
@@ -137,12 +138,12 @@
    "color": "#0a66c2",
    "followers": 1,
    "fDelta": null,
-   "followersNote": "1 follower · Metricool read Nov 12, 2026",
+   "followersNote": "1 follower · Metricool brand 2 read Nov 13, 2026",
    "views": null,
-   "viewsText": "30 posts",
-   "viewsLabel": "Per-post impressions · through Nov 11",
+   "viewsText": "33 posts",
+   "viewsLabel": "Per-post impressions · through Nov 12",
    "eng": null,
-   "posts": 10,
+   "posts": 12,
    "trend": [
     4,
     0,
@@ -163,43 +164,44 @@
     0,
     4,
     0,
+    0,
     0
    ],
    "trendLabel": "Page Views · daily",
    "about": "Mirrors the personal profile's production slate — morning carousel and evening video on production days.",
-   "note": "Metricool second brand read Nov 12, 2026 (period Oct 13-Nov 11). New rows: Second Brain video 1 impression / 1 video view; Second Brain carousel 0 impressions. Workshop V1 baseline unchanged: 2 impressions / 2 video views. W2 clicks 5 unchanged. Brand showed a background-sync banner during the read; figures may still update.",
+   "note": "Per-post data from Metricool second brand 'Selenko Page' (period Oct 14-Nov 12), sweep Nov 13, 2026. Roofing post: 12 impressions, 1 reaction, 1 comment, 9 clicks — the Page's strongest engagement row to date. Second Brain carousel 0→2 impressions. Short 01 and Email Fix: 1 impression each (first reads).",
    "recent": [
+    {
+     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 1,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 1,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Roofing Acquisition Prep",
      "when": "Thu, Nov 12",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "shares": null,
+     "views": 12,
+     "likes": 1,
+     "comments": 1,
+     "shares": 0,
      "saves": null
     },
     {
      "t": "Second Brain video: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
      "views": 1,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": null
-    },
-    {
-     "t": "Second Brain carousel: You are your AI's memory (Nov 11)",
-     "when": "Wed, Nov 11",
-     "views": 0,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": null
-    },
-    {
-     "t": "Workshop Day video V1: Never Open Your CRM Again (flashy intro — business-page baseline)",
-     "when": "Tue, Nov 10",
-     "views": 2,
      "likes": 0,
      "comments": 0,
      "shares": 0,
@@ -215,11 +217,11 @@
    "followers": 5,
    "fDelta": null,
    "followersNote": "5 followers",
-   "views": 220,
+   "views": 128,
    "viewsText": null,
-   "viewsLabel": "Page Impressions · Nov 12",
+   "viewsLabel": "Page Impressions · Nov 13",
    "eng": null,
-   "posts": 11,
+   "posts": 13,
    "trend": [
     0,
     215,
@@ -235,47 +237,48 @@
     246,
     148,
     116,
-    220
+    220,
+    128
    ],
    "trendLabel": "Page Impressions · daily",
    "about": "Posts arrive via a manual Instagram share (auto-share is unreliable). Page posts are also shared to the Page's own story.",
-   "note": "Page Impressions 220 and Media views 256 on Nov 12 as reported by Postiz, replacing the early partial Nov 12 read of 9; a future-dated Nov 13 zero bucket was not recorded. Posts Engagement 0 and Page followers 0 on Nov 12. Nov 11 unchanged: Page Impressions 116, Media views 135. Facebook per-post analytics for photo posts still return the placeholder Impressions bucket, so those posts' stored figures were left untouched; reel Plays were updated from per-post analytics.",
+   "note": "Page Impressions 128 and Media views 149 on Nov 13 as reported by Postiz; a future-dated Nov 14 zero bucket was not recorded. Posts Engagement 0 and Page followers 0 on Nov 13. Nov 12 unchanged: Page Impressions 220, Media views 256. Facebook per-post analytics for photo posts still return the placeholder Impressions bucket, so those posts' stored figures were left untouched; reel Plays and Reactions were updated from per-post analytics.",
    "recent": [
+    {
+     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 130,
+     "likes": 0,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 3,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Second Brain video: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
-     "views": 226,
+     "views": 234,
      "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
+     "comments": null,
+     "shares": null,
+     "saves": null
     },
     {
      "t": "Second Brain carousel: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
-     "views": 4,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Workshop Day video V1: Never Open Your CRM Again (flashy intro — business-page baseline)",
-     "when": "Tue, Nov 10",
-     "views": 123,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Workshop Day carousel: Most agents never open their CRM (Leads Manager)",
-     "when": "Tue, Nov 10",
-     "views": 15,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
+     "views": 10,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
     }
    ]
   },
@@ -286,12 +289,12 @@
    "color": "#8a8f98",
    "followers": 181,
    "fDelta": null,
-   "followersNote": "181 followers · Metricool read Nov 12, 2026",
-   "views": 2070,
+   "followersNote": "181 followers · Metricool read Nov 13, 2026",
+   "views": 2014,
    "viewsText": null,
    "viewsLabel": "Account Views (Postiz)",
    "eng": null,
-   "posts": 7,
+   "posts": 8,
    "trend": [
     743,
     853,
@@ -306,16 +309,26 @@
     1746,
     1854,
     1942,
-    2070
+    2070,
+    2014
    ],
    "trendLabel": "Account Views (Postiz) · daily",
    "about": "Evening videos only, posted as direct posts so a chosen cover frame can be set from the posting sheet's timestamp.",
-   "note": "Postiz channel level on Nov 12: Account Views 2070, Recent Likes 10, Recent Comments 7, Recent Shares 1. These are account-wide aggregates across all videos, not per-video counts; per-video figures come only from Postiz per-post analytics (Second Brain video now 118 views / 3 likes / 1 comment).",
+   "note": "Postiz channel level, platform-dated Nov 13, 2026: Account Views 2014 (account-wide aggregate across all videos; this window total can move — it read 2070 on Nov 12), Recent Likes 8, Recent Comments 8, Recent Shares 1. Per-video figures come only from Postiz per-post analytics, never from this channel aggregate. Short 01 TikTok: 24→29 views per-post. Second Brain video per-post unchanged at 160 views.",
    "recent": [
+    {
+     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 29,
+     "likes": 0,
+     "comments": 1,
+     "shares": 0,
+     "saves": null
+    },
     {
      "t": "Second Brain video: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
-     "views": 118,
+     "views": 160,
      "likes": 3,
      "comments": 1,
      "shares": 0,
@@ -324,7 +337,7 @@
     {
      "t": "Workshop Day video V2: Never Open Your CRM Again (calm intro, no PiP)",
      "when": "Tue, Nov 10",
-     "views": 82,
+     "views": 83,
      "likes": 2,
      "comments": 1,
      "shares": 0,
@@ -335,15 +348,6 @@
      "when": "Mon, Nov 9",
      "views": 117,
      "likes": 1,
-     "comments": 1,
-     "shares": 0,
-     "saves": null
-    },
-    {
-     "t": "Dashboard Story, fronted redo (test, Nov 8)",
-     "when": "Sun, Nov 8",
-     "views": 107,
-     "likes": 0,
      "comments": 1,
      "shares": 0,
      "saves": null
@@ -360,9 +364,9 @@
    "followersNote": "32 subscribers · +3 in last 28 days",
    "views": 32,
    "viewsText": null,
-   "viewsLabel": "Subscribers · Studio read Nov 12",
+   "viewsLabel": "Subscribers · Studio read Nov 13",
    "eng": null,
-   "posts": 7,
+   "posts": 8,
    "trend": [
     16,
     87,
@@ -378,25 +382,35 @@
     93,
     115,
     80,
-    93
+    93,
+    34
    ],
    "trendLabel": "Estimated Minutes Watched · daily",
    "about": "Shorts post through YouTube Studio while the Postiz connection is down; the 'Selenko Uploads' Google Cloud route is in setup. Designed covers are set manually in Studio.",
-   "note": "YouTube Studio read Nov 12, 2026 (5:44-6:02 AM ET), Advanced mode lifetime through Nov 11: 32 subscribers, realtime 262-266 views last 48h. Notebook video (Nov 9): 241 views through Nov 11 (245 realtime), 2.0 watch hours, shares 2. Workshop V2: 34 views, shares 1→4. Second Brain video first read: 12 views through Nov 11 (18 realtime), 13.5% viewed. No new viewer comments since Nov 11 5:37 AM. Two unlisted videos unchanged (Oct 30 Desk 249; Nov 1 Family Dashboard 65).",
+   "note": "YouTube Studio read Nov 13, 2026 (5:42-5:52 AM ET), Advanced mode lifetime through Nov 12: 32 subscribers unchanged. Short 01 (Nov 12, 0:30): 101 views through Nov 12, 1.4 watch hours (avg-duration figure is the known Shorts anomaly, unreliable). Notebook: 241→295 views. Second Brain: 12→39, first like+share. Workshop V2: 34→52. No new viewer comments; held queue empty.",
    "recent": [
     {
-     "t": "Second Brain video: You are your AI's memory (Nov 11)",
-     "when": "Wed, Nov 11",
-     "views": 12,
+     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 101,
      "likes": 0,
      "comments": 1,
      "shares": 0,
      "saves": null
     },
     {
+     "t": "Second Brain video: You are your AI's memory (Nov 11)",
+     "when": "Wed, Nov 11",
+     "views": 39,
+     "likes": 1,
+     "comments": 1,
+     "shares": 1,
+     "saves": null
+    },
+    {
      "t": "Workshop Day video V2: Never Open Your CRM Again (calm intro, no PiP)",
      "when": "Tue, Nov 10",
-     "views": 34,
+     "views": 52,
      "likes": 1,
      "comments": 1,
      "shares": 4,
@@ -405,19 +419,10 @@
     {
      "t": "Notebook video: Give Your AI a Notebook It Can Write In",
      "when": "Mon, Nov 9",
-     "views": 241,
-     "likes": 0,
+     "views": 295,
+     "likes": null,
      "comments": 1,
      "shares": 2,
-     "saves": null
-    },
-    {
-     "t": "Dashboard Story, fronted redo (test, Nov 8)",
-     "when": "Sun, Nov 8",
-     "views": 30,
-     "likes": 0,
-     "comments": 1,
-     "shares": 0,
      "saves": null
     }
    ]
@@ -430,11 +435,11 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 307,
+   "views": 318,
    "viewsText": null,
-   "viewsLabel": "Impressions · Nov 12",
+   "viewsLabel": "Impressions · Nov 13",
    "eng": null,
-   "posts": 11,
+   "posts": 13,
    "trend": [
     19,
     19,
@@ -450,16 +455,35 @@
     242,
     296,
     318,
-    307
+    307,
+    318
    ],
    "trendLabel": "Impressions · daily",
    "about": "Evening videos. No thumbnail support through Postiz — the video's own frame carries the cover.",
-   "note": "Postiz channel level (30 day query): Impressions 307 on Nov 12, recorded exactly as reported (Postiz reported 318 on Nov 11; this window total can move). Likes 1 and Replies 1 on Nov 12; Retweets, Quotes and Bookmarks all 0 on Nov 12.",
+   "note": "Postiz channel level (30 day query): Impressions 318 on Nov 13, recorded exactly as reported (Postiz reported 307 on Nov 12; this window total can move). Likes 1 and Replies 1 on Nov 13; Retweets, Quotes and Bookmarks all 0 on Nov 13.",
    "recent": [
+    {
+     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 1,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+     "when": "Thu, Nov 12",
+     "views": 6,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
     {
      "t": "Second Brain video: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
-     "views": 4,
+     "views": 5,
      "likes": 0,
      "comments": 0,
      "shares": 0,
@@ -473,29 +497,203 @@
      "comments": 0,
      "shares": 0,
      "saves": 0
-    },
-    {
-     "t": "Workshop Day video V1: Never Open Your CRM Again (flashy intro — business-page baseline)",
-     "when": "Tue, Nov 10",
-     "views": 3,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Workshop Day carousel: Most agents never open their CRM (Leads Manager)",
-     "when": "Tue, Nov 10",
-     "views": 7,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
     }
    ]
   }
  ],
  "posts": [
+  {
+   "id": "s36-163",
+   "time": null,
+   "title": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+   "channel": "instagram",
+   "channelLabel": "Instagram",
+   "format": "video",
+   "views": 54,
+   "impressions": null,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "url": "https://www.instagram.com/reel/DfqOq46DrHc/",
+   "note": "First short under the Nov 12 short-lane ruling: one idea, 30 seconds, no CTA block. Posted Nov 12, 2026 ~6:24 PM ET, all legs verified in the Nov 13 sweep. Story-assisted by default (standing rule); Facebook story read lagged 0 on the dashboard, Instagram story not separately reported. YouTube titled 'Make AI Write Your Emails in Your Voice (30 Second Fix)'. First reads ~11h: YouTube 101 views through Nov 12, FB Page 130, FB personal FB 210, IG 49, TikTok 24."
+  },
+  {
+   "id": "s36-164",
+   "time": null,
+   "title": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+   "channel": "youtube",
+   "channelLabel": "YouTube",
+   "format": "video",
+   "views": 101,
+   "impressions": null,
+   "likes": 0,
+   "comments": 1,
+   "shares": 0,
+   "saves": null,
+   "url": "https://youtube.com/shorts/U7QPy44UzUA",
+   "note": "First short under the Nov 12 short-lane ruling: one idea, 30 seconds, no CTA block. Posted Nov 12, 2026 ~6:24 PM ET, all legs verified in the Nov 13 sweep. Story-assisted by default (standing rule); Facebook story read lagged 0 on the dashboard, Instagram story not separately reported. YouTube titled 'Make AI Write Your Emails in Your Voice (30 Second Fix)'. First reads ~11h: YouTube 101 views through Nov 12, FB Page 130, FB personal FB 210, IG 49, TikTok 24."
+  },
+  {
+   "id": "s36-165",
+   "time": null,
+   "title": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+   "channel": "tiktok",
+   "channelLabel": "TikTok",
+   "format": "video",
+   "views": 29,
+   "impressions": null,
+   "likes": 0,
+   "comments": 1,
+   "shares": 0,
+   "saves": null,
+   "url": "https://www.tiktok.com/@serge.osaulenko/video/7707429726658742286",
+   "note": "First short under the Nov 12 short-lane ruling: one idea, 30 seconds, no CTA block. Posted Nov 12, 2026 ~6:24 PM ET, all legs verified in the Nov 13 sweep. Story-assisted by default (standing rule); Facebook story read lagged 0 on the dashboard, Instagram story not separately reported. YouTube titled 'Make AI Write Your Emails in Your Voice (30 Second Fix)'. First reads ~11h: YouTube 101 views through Nov 12, FB Page 130, FB personal FB 210, IG 49, TikTok 24."
+  },
+  {
+   "id": "s36-166",
+   "time": null,
+   "title": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+   "channel": "linkedin",
+   "channelLabel": "LinkedIn",
+   "format": "video",
+   "views": 4,
+   "impressions": 20,
+   "likes": null,
+   "comments": null,
+   "shares": null,
+   "saves": null,
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526787151074594816",
+   "note": "First short under the Nov 12 short-lane ruling: one idea, 30 seconds, no CTA block. Posted Nov 12, 2026 ~6:24 PM ET, all legs verified in the Nov 13 sweep. Story-assisted by default (standing rule); Facebook story read lagged 0 on the dashboard, Instagram story not separately reported. YouTube titled 'Make AI Write Your Emails in Your Voice (30 Second Fix)'. First reads ~11h: YouTube 101 views through Nov 12, FB Page 130, FB personal FB 210, IG 49, TikTok 24."
+  },
+  {
+   "id": "s36-167",
+   "time": null,
+   "title": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+   "channel": "linkedin-page",
+   "channelLabel": "LinkedIn Page",
+   "format": "video",
+   "views": 1,
+   "impressions": 1,
+   "likes": 0,
+   "comments": 0,
+   "shares": null,
+   "saves": null,
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526787149611024384",
+   "note": "First short under the Nov 12 short-lane ruling: one idea, 30 seconds, no CTA block. Posted Nov 12, 2026 ~6:24 PM ET, all legs verified in the Nov 13 sweep. Story-assisted by default (standing rule); Facebook story read lagged 0 on the dashboard, Instagram story not separately reported. YouTube titled 'Make AI Write Your Emails in Your Voice (30 Second Fix)'. First reads ~11h: YouTube 101 views through Nov 12, FB Page 130, FB personal FB 210, IG 49, TikTok 24."
+  },
+  {
+   "id": "s36-168",
+   "time": null,
+   "title": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+   "channel": "facebook-page",
+   "channelLabel": "Facebook Page",
+   "format": "video",
+   "views": 130,
+   "impressions": null,
+   "likes": 0,
+   "comments": null,
+   "shares": null,
+   "saves": null,
+   "url": "https://www.facebook.com/reel/1720575052816933",
+   "note": "First short under the Nov 12 short-lane ruling: one idea, 30 seconds, no CTA block. Posted Nov 12, 2026 ~6:24 PM ET, all legs verified in the Nov 13 sweep. Story-assisted by default (standing rule); Facebook story read lagged 0 on the dashboard, Instagram story not separately reported. YouTube titled 'Make AI Write Your Emails in Your Voice (30 Second Fix)'. First reads ~11h: YouTube 101 views through Nov 12, FB Page 130, FB personal FB 210, IG 49, TikTok 24."
+  },
+  {
+   "id": "s36-169",
+   "time": null,
+   "title": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
+   "channel": "x",
+   "channelLabel": "X",
+   "format": "video",
+   "views": null,
+   "impressions": 1,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "url": "https://twitter.com/sergeosaulenko/status/2121021468838395971",
+   "note": "First short under the Nov 12 short-lane ruling: one idea, 30 seconds, no CTA block. Posted Nov 12, 2026 ~6:24 PM ET, all legs verified in the Nov 13 sweep. Story-assisted by default (standing rule); Facebook story read lagged 0 on the dashboard, Instagram story not separately reported. YouTube titled 'Make AI Write Your Emails in Your Voice (30 Second Fix)'. First reads ~11h: YouTube 101 views through Nov 12, FB Page 130, FB personal FB 210, IG 49, TikTok 24."
+  },
+  {
+   "id": "s35-158",
+   "time": null,
+   "title": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+   "channel": "instagram",
+   "channelLabel": "Instagram",
+   "format": "carousel",
+   "views": 144,
+   "impressions": null,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "url": "https://www.instagram.com/p/DfpuMcMFuH2/",
+   "note": "Posted Nov 12, 2026 via Postiz (IG 1:40 PM ET read). Morning carousel on the Email Fix topic, same day as Short 01. Story-assisted by default (standing rule): Facebook slide stories read 6-9 views each on Nov 13; Facebook personal share copy FB 476 views / 323 viewers at first read, 90.4% non-follower. Square-story W2 form."
+  },
+  {
+   "id": "s35-159",
+   "time": null,
+   "title": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+   "channel": "linkedin",
+   "channelLabel": "LinkedIn",
+   "format": "carousel",
+   "views": null,
+   "impressions": 18,
+   "likes": null,
+   "comments": null,
+   "shares": null,
+   "saves": null,
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526715629169721344",
+   "note": "Posted Nov 12, 2026 via Postiz (IG 1:40 PM ET read). Morning carousel on the Email Fix topic, same day as Short 01. Story-assisted by default (standing rule): Facebook slide stories read 6-9 views each on Nov 13; Facebook personal share copy FB 476 views / 323 viewers at first read, 90.4% non-follower. Square-story W2 form."
+  },
+  {
+   "id": "s35-160",
+   "time": null,
+   "title": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+   "channel": "linkedin-page",
+   "channelLabel": "LinkedIn Page",
+   "format": "carousel",
+   "views": null,
+   "impressions": 1,
+   "likes": 0,
+   "comments": 0,
+   "shares": null,
+   "saves": null,
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526715550782103552",
+   "note": "Posted Nov 12, 2026 via Postiz (IG 1:40 PM ET read). Morning carousel on the Email Fix topic, same day as Short 01. Story-assisted by default (standing rule): Facebook slide stories read 6-9 views each on Nov 13; Facebook personal share copy FB 476 views / 323 viewers at first read, 90.4% non-follower. Square-story W2 form."
+  },
+  {
+   "id": "s35-161",
+   "time": null,
+   "title": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+   "channel": "facebook-page",
+   "channelLabel": "Facebook Page",
+   "format": "carousel",
+   "views": 3,
+   "impressions": null,
+   "likes": null,
+   "comments": null,
+   "shares": null,
+   "saves": null,
+   "url": "https://www.facebook.com/122132259818882149/posts/122134309238882149",
+   "note": "Posted Nov 12, 2026 via Postiz (IG 1:40 PM ET read). Morning carousel on the Email Fix topic, same day as Short 01. Story-assisted by default (standing rule): Facebook slide stories read 6-9 views each on Nov 13; Facebook personal share copy FB 476 views / 323 viewers at first read, 90.4% non-follower. Square-story W2 form."
+  },
+  {
+   "id": "s35-162",
+   "time": null,
+   "title": "Email Fix carousel: Your AI writes emails like a lawyer (Nov 12)",
+   "channel": "x",
+   "channelLabel": "X",
+   "format": "carousel",
+   "views": null,
+   "impressions": 6,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "url": "https://twitter.com/sergeosaulenko/status/2120949860069208455",
+   "note": "Posted Nov 12, 2026 via Postiz (IG 1:40 PM ET read). Morning carousel on the Email Fix topic, same day as Short 01. Story-assisted by default (standing rule): Facebook slide stories read 6-9 views each on Nov 13; Facebook personal share copy FB 476 views / 323 viewers at first read, 90.4% non-follower. Square-story W2 form."
+  },
   {
    "id": "s34-156",
    "time": null,
@@ -504,7 +702,7 @@
    "channelLabel": "LinkedIn",
    "format": "image",
    "views": null,
-   "impressions": null,
+   "impressions": 35,
    "likes": null,
    "comments": null,
    "shares": null,
@@ -520,10 +718,10 @@
    "channelLabel": "LinkedIn Page",
    "format": "image",
    "views": null,
-   "impressions": null,
-   "likes": null,
-   "comments": null,
-   "shares": null,
+   "impressions": 12,
+   "likes": 1,
+   "comments": 1,
+   "shares": 0,
    "saves": null,
    "url": "https://www.linkedin.com/feed/update/urn:li:share:7526630962059808769",
    "note": "Roofing Acquisition Prep image post, approved Oct 30. Gate passed: selenko.com tie-in live on selenko.com/work (Roofing Acquisition Prep -> trades.selenko.com/roofing). Posted via Postiz CLI, scheduled 2026-11-12T13:00:00Z, both legs PUBLISHED and verified on LinkedIn itself. Card roofing-card.png, media https://uploads.postiz.com/lokVKhhVA0.png."
@@ -534,7 +732,7 @@
   "platform": "Meta (Facebook & Instagram)",
   "status": "Active",
   "since": "Nov 2, 2026",
-  "windowLabel": "Nov 2 – Nov 12, 2026",
+  "windowLabel": "Nov 2 – Nov 13, 2026",
   "spend": 36.32,
   "impressions": 2811,
   "reach": 2371,
@@ -580,21 +778,21 @@
  "weekLabel": "YouTube · Estimated Minutes Watched per day",
  "weekTotal": 348,
  "site": {
-  "sessions": 42,
-  "pageViews": 43,
-  "windowLabel": "Nov 3 – Nov 12, 2026",
+  "sessions": null,
+  "pageViews": null,
+  "windowLabel": null,
   "hostLabel": "trades.selenko.com · GA4",
   "linksEntries": null,
   "signupClicks": null,
   "contactClicks": null,
   "gsc": {
-   "impressions": 76,
+   "impressions": 71,
    "clicks": 3,
-   "windowLabel": "Oct 15 – Nov 12, 2026",
+   "windowLabel": "Oct 16 – Nov 13, 2026",
    "topQuery": "selenko",
-   "topQueryImpressions": 26
+   "topQueryImpressions": 23
   },
-  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 76 impressions · 3 clicks · Oct 15 – Nov 12, 2026 · top query 'selenko' (26 impressions)."
+  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 71 impressions · 3 clicks · Oct 16 – Nov 13, 2026 · top query 'selenko' (23 impressions)."
  },
  "kpis": [
   {
@@ -604,8 +802,8 @@
   },
   {
    "label": "Engagement · latest posts",
-   "value": "0",
-   "sub": "likes, comments, shares &amp; saves · reported on 0 of 2 legs"
+   "value": "6",
+   "sub": "likes, comments, shares &amp; saves · reported on 10 of 14 legs"
   },
   {
    "label": "Followers · reported channels",
