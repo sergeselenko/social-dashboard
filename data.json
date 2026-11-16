@@ -1,6 +1,6 @@
 {
  "updatedLabel": "Thu, Nov 5, 2026 · 7:49 AM ET",
- "postsDateLabel": "Saturday, Nov 14",
+ "postsDateLabel": "Sunday, Nov 15",
  "postsFoot": "Story shares (Instagram/Facebook Stories on Nov 4) are tracked separately and are not credited to these posts' own performance in the ~Nov 13 plan verdict.",
  "channels": [
   {
@@ -8,14 +8,14 @@
    "name": "Instagram",
    "handle": "@serge.osaulenko",
    "color": "#d62976",
-   "followers": null,
+   "followers": 987,
    "fDelta": null,
-   "followersNote": null,
-   "views": 8240,
+   "followersNote": "987 followers · IG CLI read Nov 16, 2026",
+   "views": 987,
    "viewsText": null,
-   "viewsLabel": "Views · Nov 15",
+   "viewsLabel": "Followers · IG CLI read Nov 16",
    "eng": null,
-   "posts": 13,
+   "posts": 12,
    "trend": [
     1828,
     2119,
@@ -33,16 +33,26 @@
     7402,
     7817,
     7995,
-    8240
+    8240,
+    8433
    ],
    "trendLabel": "Views · daily",
    "about": "Reels, the morning setup carousel, and Stories. The carousel and the evening video both land here daily; Facebook copies arrive via a manual Instagram share.",
-   "note": "Postiz channel level (30 day query): Views 8240, Likes 137, Comments 4, Shares 4, Saves 5, Replies 0 on Nov 15. Reach daily series: 103 on Nov 14 (newest Reach date reported). Follower Count: 0 on Nov 14.",
+   "note": "IG CLI read Nov 16, 2026: 987 followers (-1; Metricool read 987 the same morning — routes agree). New post: Agent carousel (Nov 15) 33 views, all follower, 13 viewers. Listing video 46 -> 117 views (+71, non-follower 38 -> 96); Listing carousel 58; Recreate 192; Short 01 93; Email Fix 168. Saves drought unchanged.",
    "recent": [
+    {
+     "t": "Agent carousel: What is an agent (Nov 15)",
+     "when": "Sun, Nov 15",
+     "views": 38,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
     {
      "t": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
      "when": "Sat, Nov 14",
-     "views": 55,
+     "views": 117,
      "likes": 1,
      "comments": 0,
      "shares": 0,
@@ -51,7 +61,7 @@
     {
      "t": "Listing carousel: The hottest listing in your market (Nov 14)",
      "when": "Sat, Nov 14",
-     "views": 39,
+     "views": 58,
      "likes": 1,
      "comments": 0,
      "shares": 0,
@@ -60,17 +70,8 @@
     {
      "t": "Recreate video: Turn Any YouTube Tutorial Into a Claude Code Agent (Nov 13)",
      "when": "Fri, Nov 13",
-     "views": 186,
+     "views": 195,
      "likes": 2,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
-     "when": "Thu, Nov 12",
-     "views": 93,
-     "likes": 1,
      "comments": 0,
      "shares": 0,
      "saves": 0
@@ -84,21 +85,30 @@
    "color": "#0a66c2",
    "followers": 2087,
    "fDelta": null,
-   "followersNote": "2,087 followers · Metricool read Nov 15, 2026",
+   "followersNote": "2,087 followers · Metricool read Nov 16, 2026",
    "views": null,
-   "viewsText": "40 posts",
-   "viewsLabel": "Per-post impressions · through Nov 14",
+   "viewsText": "41 posts",
+   "viewsLabel": "Per-post impressions · through Nov 15",
    "eng": null,
    "posts": 13,
    "trend": null,
    "trendLabel": null,
    "about": "Lead surface: the morning carousel and the evening video both post here on production days, as two differentiated posts. Native video uploads only. Postiz returns no analytics for the personal profile — figures are read manually in the LinkedIn app.",
-   "note": "Per-post data from Metricool (period Oct 16-Nov 14), backfilled by the analytics lane sweep Nov 15, 2026. Followers 2,087 unchanged. New rows: Listing video 12 impressions / 3 video views; Listing carousel 1 impression. Recreate 23 impressions; roofing 38; Second Brain video 23. Postiz returns empty for LinkedIn personal — Metricool is the source.",
+   "note": "Per-post data from Metricool (period Oct 17-Nov 15), backfilled by the analytics lane sweep Nov 16, 2026. Followers 2,087 unchanged. New row: Agent carousel (Nov 15) 13 impressions. Listing video 12 -> 19 impressions / 4 video views; Listing carousel 1; Recreate 23; roofing 38; Second Brain video 23; Short 01 26; Email Fix 21.",
    "recent": [
+    {
+     "t": "Agent carousel: What is an agent (Nov 15)",
+     "when": "Sun, Nov 15",
+     "views": 13,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
      "when": "Sat, Nov 14",
-     "views": 3,
+     "views": 4,
      "likes": null,
      "comments": null,
      "shares": null,
@@ -121,15 +131,6 @@
      "comments": null,
      "shares": null,
      "saves": null
-    },
-    {
-     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
-     "when": "Thu, Nov 12",
-     "views": 6,
-     "likes": null,
-     "comments": null,
-     "shares": null,
-     "saves": null
     }
    ]
   },
@@ -140,12 +141,12 @@
    "color": "#0a66c2",
    "followers": 1,
    "fDelta": null,
-   "followersNote": "1 follower · Metricool brand 2 read Nov 15, 2026",
-   "views": null,
-   "viewsText": "36 posts",
-   "viewsLabel": "Per-post impressions · through Nov 14",
+   "followersNote": "1 follower · Metricool read Nov 16, 2026",
+   "views": 1,
+   "viewsText": null,
+   "viewsLabel": "Followers · Metricool read Nov 16",
    "eng": null,
-   "posts": 14,
+   "posts": 13,
    "trend": [
     4,
     0,
@@ -169,16 +170,26 @@
     0,
     0,
     0,
+    0,
     0
    ],
    "trendLabel": "Page Views · daily",
    "about": "Mirrors the personal profile's production slate — morning carousel and evening video on production days.",
-   "note": "Per-post data from Metricool second brand 'Selenko Page' (period Oct 16-Nov 14), backfilled Nov 15, 2026. Follower total 1 as shown in Summary/Growth (the Page's own Followers box still syncing). New rows: Listing video and carousel, 0 impressions each. Roofing remains the Page's strongest engagement row: 12 impressions, 1 reaction, 2 comments, 9 clicks.",
+   "note": "LinkedIn Selenko Page per-post data from Metricool second brand (period Oct 17-Nov 15), Nov 16, 2026 sweep. Followers 1, unchanged. New row: Agent carousel (Nov 15) 2 impressions. Listing video 0 impressions / 1 video view; Listing carousel 0. Roofing still the Page's strongest engagement row: 12 impressions, 1 reaction, 2 comments, 9 clicks.",
    "recent": [
+    {
+     "t": "Agent carousel: What is an agent (Nov 15)",
+     "when": "Sun, Nov 15",
+     "views": 2,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
      "when": "Sat, Nov 14",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": 0,
      "shares": null,
@@ -201,15 +212,6 @@
      "comments": 0,
      "shares": null,
      "saves": null
-    },
-    {
-     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
-     "when": "Thu, Nov 12",
-     "views": 1,
-     "likes": 0,
-     "comments": 0,
-     "shares": null,
-     "saves": null
     }
    ]
   },
@@ -221,11 +223,11 @@
    "followers": 5,
    "fDelta": null,
    "followersNote": "5 followers",
-   "views": 25,
+   "views": 3,
    "viewsText": null,
-   "viewsLabel": "Page Impressions · Nov 15",
+   "viewsLabel": "Page Impressions · Nov 16",
    "eng": null,
-   "posts": 13,
+   "posts": 12,
    "trend": [
     0,
     215,
@@ -244,12 +246,22 @@
     220,
     129,
     126,
-    25
+    25,
+    3
    ],
    "trendLabel": "Page Impressions · daily",
    "about": "Posts arrive via a manual Instagram share (auto-share is unreliable). Page posts are also shared to the Page's own story.",
-   "note": "Page Impressions 25 and Media views 76 on Nov 15 as reported by Postiz; Nov 14 confirmed at 126 / 143 on re-pull. A future-dated Nov 16 bucket (1 impression / 1 media view) was not recorded. Posts Engagement 0 and Page followers 0 on Nov 15. Facebook per-post analytics for photo posts still return the placeholder Impressions bucket, so those posts' stored figures were left untouched; reel Plays and Reactions were updated from per-post analytics.",
+   "note": "Page Impressions 3 and Media views 4 on Nov 16 as reported by Postiz (partial day, pulled the morning of Nov 16); Nov 15 confirmed at 25 / 76 on re-pull. A future-dated Nov 17 bucket (0 impressions / 0 media views) was not recorded. Posts Engagement 0 and Page followers 0 on Nov 16. Facebook per-post analytics for photo posts still return the placeholder Impressions bucket, so those posts' stored figures were left untouched; reel Plays and Reactions were updated from per-post analytics.",
    "recent": [
+    {
+     "t": "Agent carousel: What is an agent (Nov 15)",
+     "when": "Sun, Nov 15",
+     "views": 2,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
      "when": "Sat, Nov 14",
@@ -276,15 +288,6 @@
      "comments": null,
      "shares": null,
      "saves": 1
-    },
-    {
-     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
-     "when": "Thu, Nov 12",
-     "views": 138,
-     "likes": 0,
-     "comments": null,
-     "shares": null,
-     "saves": null
     }
    ]
   },
@@ -293,14 +296,14 @@
    "name": "TikTok",
    "handle": "@serge.osaulenko",
    "color": "#8a8f98",
-   "followers": 270,
+   "followers": 269,
    "fDelta": null,
-   "followersNote": "270 followers · Metricool read Nov 15, 2026",
-   "views": 270,
+   "followersNote": "269 followers · Metricool read Nov 16, 2026",
+   "views": 269,
    "viewsText": null,
-   "viewsLabel": "Followers · Metricool read Nov 15",
+   "viewsLabel": "Followers · Metricool read Nov 16",
    "eng": null,
-   "posts": 8,
+   "posts": 6,
    "trend": [
     743,
     853,
@@ -318,17 +321,18 @@
     2070,
     2014,
     5879,
-    5837
+    5837,
+    5866
    ],
    "trendLabel": "Account Views (Postiz) · daily",
    "about": "Evening videos only, posted as direct posts so a chosen cover frame can be set from the posting sheet's timestamp.",
-   "note": "Followers 270, unchanged (Nov 15 sweep; the +89 jump was the Nov 13 Promote result). Promoted videos, PAID-ASSISTED, never organic: Short 01 2,852 views / 69 likes; Recreate 707 / 23 (still growing post-run); Second Brain 604 / 7. Listing video (Nov 14) first read: 41 views (Postiz; Metricool 34 under lag note), 1 comment.",
+   "note": "Followers 269 (-1 vs Nov 15, Metricool as shown, no cause attributed). Listing video (Nov 14) 63 views / 1 like / 1 comment (Postiz and Metricool agree). Promoted videos, PAID-ASSISTED, never organic: Short 01 2,852 views / 69 likes (settled); Recreate 713 / 22; Second Brain 606 / 7.",
    "recent": [
     {
      "t": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
      "when": "Sat, Nov 14",
-     "views": 45,
-     "likes": 0,
+     "views": 63,
+     "likes": 1,
      "comments": 1,
      "shares": 0,
      "saves": null
@@ -336,8 +340,8 @@
     {
      "t": "Recreate video: Turn Any YouTube Tutorial Into a Claude Code Agent (Nov 13)",
      "when": "Fri, Nov 13",
-     "views": 707,
-     "likes": 23,
+     "views": 713,
+     "likes": 22,
      "comments": 7,
      "shares": 0,
      "saves": null
@@ -345,7 +349,7 @@
     {
      "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
      "when": "Thu, Nov 12",
-     "views": 2852,
+     "views": 2853,
      "likes": 69,
      "comments": 1,
      "shares": 3,
@@ -354,7 +358,7 @@
     {
      "t": "Second Brain video: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
-     "views": 604,
+     "views": 606,
      "likes": 7,
      "comments": 1,
      "shares": 0,
@@ -372,9 +376,9 @@
    "followersNote": "34 subscribers · +5 in last 28 days",
    "views": 34,
    "viewsText": null,
-   "viewsLabel": "Subscribers · Studio read Nov 15",
+   "viewsLabel": "Subscribers · Studio read Nov 16",
    "eng": null,
-   "posts": 8,
+   "posts": 6,
    "trend": [
     16,
     87,
@@ -393,25 +397,26 @@
     93,
     34,
     22,
+    97,
     97
    ],
    "trendLabel": "Estimated Minutes Watched · daily",
    "about": "Shorts post through YouTube Studio while the Postiz connection is down; the 'Selenko Uploads' Google Cloud route is in setup. Designed covers are set manually in Studio.",
-   "note": "YouTube Studio read Nov 15, 2026 (5:46-6:00 AM ET), Advanced mode lifetime through Nov 14: 34 subscribers (unchanged). Listing video (Nov 14) first read: 28 views through Nov 14 (36 realtime), 1.3 watch hours, engagement fields not reported, Shorts duration anomaly flagged. Recreate day 2: 144 -> 244 views (+100). Short 01: 185. Notebook: 311. No new comments since Nov 14 5:37 AM; held queue empty.",
+   "note": "YouTube Studio read Nov 16, 2026 (5:43-6:05 AM ET), Advanced mode lifetime through Nov 15: 34 subscribers (unchanged). Recreate (Nov 13) 293 views (+49); Listing video (Nov 14) 42 views (+14, first share; Shorts duration anomaly 1,993.3% flagged unreliable); Short 01 194 (+9); Second Brain 75 (+4); Notebook 318 (+7). No new comments since Nov 15, 5:37 AM ET; held queue empty.",
    "recent": [
     {
      "t": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
      "when": "Sat, Nov 14",
-     "views": 28,
-     "likes": null,
-     "comments": null,
-     "shares": null,
+     "views": 42,
+     "likes": 0,
+     "comments": 0,
+     "shares": 1,
      "saves": null
     },
     {
      "t": "Recreate video: Turn Any YouTube Tutorial Into a Claude Code Agent (Nov 13)",
      "when": "Fri, Nov 13",
-     "views": 244,
+     "views": 293,
      "likes": 1,
      "comments": 1,
      "shares": 0,
@@ -420,7 +425,7 @@
     {
      "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
      "when": "Thu, Nov 12",
-     "views": 185,
+     "views": 194,
      "likes": 1,
      "comments": 1,
      "shares": 0,
@@ -429,7 +434,7 @@
     {
      "t": "Second Brain video: You are your AI's memory (Nov 11)",
      "when": "Wed, Nov 11",
-     "views": 71,
+     "views": 75,
      "likes": 1,
      "comments": 1,
      "shares": 1,
@@ -445,11 +450,11 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 439,
+   "views": 464,
    "viewsText": null,
-   "viewsLabel": "Impressions · Nov 15",
+   "viewsLabel": "Impressions · Nov 16",
    "eng": null,
-   "posts": 13,
+   "posts": 12,
    "trend": [
     19,
     19,
@@ -468,16 +473,26 @@
     307,
     318,
     363,
-    439
+    439,
+    464
    ],
    "trendLabel": "Impressions · daily",
    "about": "Evening videos. No thumbnail support through Postiz — the video's own frame carries the cover.",
-   "note": "Postiz channel level (30 day query): Impressions 439 on Nov 15, recorded exactly as reported (Postiz reported 363 on Nov 14; this window total can move). Likes 3 and Replies 1 on Nov 15; Retweets, Quotes and Bookmarks all 0 on Nov 15.",
+   "note": "Postiz channel level (30 day query): Impressions 464 on Nov 16, recorded exactly as reported (Postiz reported 439 on Nov 15; this window total can move). Likes 3 and Replies 1 on Nov 16; Retweets, Quotes and Bookmarks all 0 on Nov 16.",
    "recent": [
+    {
+     "t": "Agent carousel: What is an agent (Nov 15)",
+     "when": "Sun, Nov 15",
+     "views": 15,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
     {
      "t": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
      "when": "Sat, Nov 14",
-     "views": 9,
+     "views": 11,
      "likes": 0,
      "comments": 0,
      "shares": 0,
@@ -486,7 +501,7 @@
     {
      "t": "Listing carousel: The hottest listing in your market (Nov 14)",
      "when": "Sat, Nov 14",
-     "views": 63,
+     "views": 64,
      "likes": 2,
      "comments": 0,
      "shares": 0,
@@ -495,16 +510,7 @@
     {
      "t": "Recreate video: Turn Any YouTube Tutorial Into a Claude Code Agent (Nov 13)",
      "when": "Fri, Nov 13",
-     "views": 34,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Short 01: Stop telling your AI to sound like you. Show it instead. (Nov 12)",
-     "when": "Thu, Nov 12",
-     "views": 2,
+     "views": 36,
      "likes": 0,
      "comments": 0,
      "shares": 0,
@@ -515,180 +521,84 @@
  ],
  "posts": [
   {
-   "id": "s39-186",
+   "id": "s40-194",
    "time": null,
-   "title": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
+   "title": "Agent carousel: What is an agent (Nov 15)",
    "channel": "instagram",
    "channelLabel": "Instagram",
-   "format": "video",
-   "views": 55,
+   "format": "carousel",
+   "views": 38,
    "impressions": null,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saves": 0,
-   "url": "https://www.instagram.com/reel/DfvsimTDJiS/",
-   "note": "Evening video (~9:20 PM ET) on the Listing topic, same day as the Listing carousel; keyword LISTING deliverable. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~8.2h (Nov 15 sweep): YouTube 28 views through Nov 14 (36 realtime), engagement fields not reported, Shorts duration anomaly flagged; Instagram 46 views (38 non-follower), skip 75.6%; TikTok 41; FB Page 24; FB personal FB 14 / IG 46; LinkedIn personal 12 impressions."
+   "url": "https://www.instagram.com/p/DfyHkhYHGl0/",
+   "note": "\"What is an agent\" carousel, posted Nov 15, 2026 ~7:56 PM ET via Postiz (5 legs; no TikTok/YouTube). Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~9.7h (Nov 16 sweep): Facebook personal FB 523 views / 372 viewers, 92.9% non-follower, 3 comments — a top-tier first read in the Listing carousel's breakout class; Instagram 33 views (all follower), 13 viewers, 1 like; X 15 impressions; LinkedIn personal 13 impressions; LinkedIn Page 2 impressions; Facebook Page 2 views."
   },
   {
-   "id": "s39-187",
+   "id": "s40-195",
    "time": null,
-   "title": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
-   "channel": "tiktok",
-   "channelLabel": "TikTok",
-   "format": "video",
-   "views": 45,
-   "impressions": null,
-   "likes": 0,
-   "comments": 1,
-   "shares": 0,
-   "saves": null,
-   "url": "https://www.tiktok.com/@serge.osaulenko/video/7708217390705870862",
-   "note": "Evening video (~9:20 PM ET) on the Listing topic, same day as the Listing carousel; keyword LISTING deliverable. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~8.2h (Nov 15 sweep): YouTube 28 views through Nov 14 (36 realtime), engagement fields not reported, Shorts duration anomaly flagged; Instagram 46 views (38 non-follower), skip 75.6%; TikTok 41; FB Page 24; FB personal FB 14 / IG 46; LinkedIn personal 12 impressions."
-  },
-  {
-   "id": "s39-189",
-   "time": null,
-   "title": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
-   "channel": "linkedin",
-   "channelLabel": "LinkedIn",
-   "format": "video",
-   "views": 3,
-   "impressions": 12,
-   "likes": null,
-   "comments": null,
-   "shares": null,
-   "saves": null,
-   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7527556445068759040",
-   "note": "Evening video (~9:20 PM ET) on the Listing topic, same day as the Listing carousel; keyword LISTING deliverable. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~8.2h (Nov 15 sweep): YouTube 28 views through Nov 14 (36 realtime), engagement fields not reported, Shorts duration anomaly flagged; Instagram 46 views (38 non-follower), skip 75.6%; TikTok 41; FB Page 24; FB personal FB 14 / IG 46; LinkedIn personal 12 impressions."
-  },
-  {
-   "id": "s39-190",
-   "time": null,
-   "title": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
-   "channel": "linkedin-page",
-   "channelLabel": "LinkedIn Page",
-   "format": "video",
-   "views": 0,
-   "impressions": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": null,
-   "saves": null,
-   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7527556445123293184",
-   "note": "Evening video (~9:20 PM ET) on the Listing topic, same day as the Listing carousel; keyword LISTING deliverable. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~8.2h (Nov 15 sweep): YouTube 28 views through Nov 14 (36 realtime), engagement fields not reported, Shorts duration anomaly flagged; Instagram 46 views (38 non-follower), skip 75.6%; TikTok 41; FB Page 24; FB personal FB 14 / IG 46; LinkedIn personal 12 impressions."
-  },
-  {
-   "id": "s39-191",
-   "time": null,
-   "title": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
-   "channel": "facebook-page",
-   "channelLabel": "Facebook Page",
-   "format": "video",
-   "views": 25,
-   "impressions": null,
-   "likes": 0,
-   "comments": null,
-   "shares": null,
-   "saves": null,
-   "url": "https://www.facebook.com/reel/1457941455661957",
-   "note": "Evening video (~9:20 PM ET) on the Listing topic, same day as the Listing carousel; keyword LISTING deliverable. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~8.2h (Nov 15 sweep): YouTube 28 views through Nov 14 (36 realtime), engagement fields not reported, Shorts duration anomaly flagged; Instagram 46 views (38 non-follower), skip 75.6%; TikTok 41; FB Page 24; FB personal FB 14 / IG 46; LinkedIn personal 12 impressions."
-  },
-  {
-   "id": "s39-192",
-   "time": null,
-   "title": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
-   "channel": "x",
-   "channelLabel": "X",
-   "format": "video",
-   "views": null,
-   "impressions": 9,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "saves": 0,
-   "url": "https://twitter.com/sergeosaulenko/status/2121790788455604656",
-   "note": "Evening video (~9:20 PM ET) on the Listing topic, same day as the Listing carousel; keyword LISTING deliverable. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~8.2h (Nov 15 sweep): YouTube 28 views through Nov 14 (36 realtime), engagement fields not reported, Shorts duration anomaly flagged; Instagram 46 views (38 non-follower), skip 75.6%; TikTok 41; FB Page 24; FB personal FB 14 / IG 46; LinkedIn personal 12 impressions."
-  },
-  {
-   "id": "s38-180",
-   "time": null,
-   "title": "Listing carousel: The hottest listing in your market (Nov 14)",
-   "channel": "instagram",
-   "channelLabel": "Instagram",
-   "format": "carousel",
-   "views": 39,
-   "impressions": null,
-   "likes": 1,
-   "comments": 0,
-   "shares": 0,
-   "saves": 0,
-   "url": "https://www.instagram.com/p/Dfulgz0nLig/",
-   "note": "Morning carousel (11:00 AM ET) on the Listing topic, same day as the Listing video. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads (Nov 15 sweep): Facebook personal FB 417 views / 260 viewers, 93% non-follower — its breakout surface; X 62 impressions, strongest X first read in the slate; Instagram 38 views; FB Page 18; LinkedIn personal 1 impression."
-  },
-  {
-   "id": "s38-181",
-   "time": null,
-   "title": "Listing carousel: The hottest listing in your market (Nov 14)",
+   "title": "Agent carousel: What is an agent (Nov 15)",
    "channel": "linkedin",
    "channelLabel": "LinkedIn",
    "format": "carousel",
    "views": null,
-   "impressions": 1,
+   "impressions": 13,
    "likes": null,
    "comments": null,
    "shares": null,
    "saves": null,
-   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7527400357895864320",
-   "note": "Morning carousel (11:00 AM ET) on the Listing topic, same day as the Listing video. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads (Nov 15 sweep): Facebook personal FB 417 views / 260 viewers, 93% non-follower — its breakout surface; X 62 impressions, strongest X first read in the slate; Instagram 38 views; FB Page 18; LinkedIn personal 1 impression."
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7527897414746157056",
+   "note": "\"What is an agent\" carousel, posted Nov 15, 2026 ~7:56 PM ET via Postiz (5 legs; no TikTok/YouTube). Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~9.7h (Nov 16 sweep): Facebook personal FB 523 views / 372 viewers, 92.9% non-follower, 3 comments — a top-tier first read in the Listing carousel's breakout class; Instagram 33 views (all follower), 13 viewers, 1 like; X 15 impressions; LinkedIn personal 13 impressions; LinkedIn Page 2 impressions; Facebook Page 2 views."
   },
   {
-   "id": "s38-182",
+   "id": "s40-196",
    "time": null,
-   "title": "Listing carousel: The hottest listing in your market (Nov 14)",
+   "title": "Agent carousel: What is an agent (Nov 15)",
    "channel": "linkedin-page",
    "channelLabel": "LinkedIn Page",
    "format": "carousel",
    "views": null,
-   "impressions": 0,
+   "impressions": 2,
    "likes": 0,
    "comments": 0,
    "shares": null,
    "saves": null,
-   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7527400223220867072",
-   "note": "Morning carousel (11:00 AM ET) on the Listing topic, same day as the Listing video. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads (Nov 15 sweep): Facebook personal FB 417 views / 260 viewers, 93% non-follower — its breakout surface; X 62 impressions, strongest X first read in the slate; Instagram 38 views; FB Page 18; LinkedIn personal 1 impression."
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7527897335670980608",
+   "note": "\"What is an agent\" carousel, posted Nov 15, 2026 ~7:56 PM ET via Postiz (5 legs; no TikTok/YouTube). Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~9.7h (Nov 16 sweep): Facebook personal FB 523 views / 372 viewers, 92.9% non-follower, 3 comments — a top-tier first read in the Listing carousel's breakout class; Instagram 33 views (all follower), 13 viewers, 1 like; X 15 impressions; LinkedIn personal 13 impressions; LinkedIn Page 2 impressions; Facebook Page 2 views."
   },
   {
-   "id": "s38-183",
+   "id": "s40-197",
    "time": null,
-   "title": "Listing carousel: The hottest listing in your market (Nov 14)",
+   "title": "Agent carousel: What is an agent (Nov 15)",
    "channel": "facebook-page",
    "channelLabel": "Facebook Page",
    "format": "carousel",
-   "views": 18,
+   "views": 2,
    "impressions": null,
    "likes": null,
    "comments": null,
    "shares": null,
    "saves": null,
-   "url": "https://www.facebook.com/122132259818882149/posts/122134539890882149",
-   "note": "Morning carousel (11:00 AM ET) on the Listing topic, same day as the Listing video. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads (Nov 15 sweep): Facebook personal FB 417 views / 260 viewers, 93% non-follower — its breakout surface; X 62 impressions, strongest X first read in the slate; Instagram 38 views; FB Page 18; LinkedIn personal 1 impression."
+   "url": "https://www.facebook.com/122132259818882149/posts/122134702802882149",
+   "note": "\"What is an agent\" carousel, posted Nov 15, 2026 ~7:56 PM ET via Postiz (5 legs; no TikTok/YouTube). Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~9.7h (Nov 16 sweep): Facebook personal FB 523 views / 372 viewers, 92.9% non-follower, 3 comments — a top-tier first read in the Listing carousel's breakout class; Instagram 33 views (all follower), 13 viewers, 1 like; X 15 impressions; LinkedIn personal 13 impressions; LinkedIn Page 2 impressions; Facebook Page 2 views."
   },
   {
-   "id": "s38-184",
+   "id": "s40-198",
    "time": null,
-   "title": "Listing carousel: The hottest listing in your market (Nov 14)",
+   "title": "Agent carousel: What is an agent (Nov 15)",
    "channel": "x",
    "channelLabel": "X",
    "format": "carousel",
    "views": null,
-   "impressions": 63,
-   "likes": 2,
+   "impressions": 15,
+   "likes": 0,
    "comments": 0,
    "shares": 0,
    "saves": 0,
-   "url": "https://twitter.com/sergeosaulenko/status/2121634556675600507",
-   "note": "Morning carousel (11:00 AM ET) on the Listing topic, same day as the Listing video. Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads (Nov 15 sweep): Facebook personal FB 417 views / 260 viewers, 93% non-follower — its breakout surface; X 62 impressions, strongest X first read in the slate; Instagram 38 views; FB Page 18; LinkedIn personal 1 impression."
+   "url": "https://twitter.com/sergeosaulenko/status/2122131646400872883",
+   "note": "\"What is an agent\" carousel, posted Nov 15, 2026 ~7:56 PM ET via Postiz (5 legs; no TikTok/YouTube). Story shares PAUSED (Serge, Nov 13): no confirmed story share, no story-assisted annotation. First reads at ~9.7h (Nov 16 sweep): Facebook personal FB 523 views / 372 viewers, 92.9% non-follower, 3 comments — a top-tier first read in the Listing carousel's breakout class; Instagram 33 views (all follower), 13 viewers, 1 like; X 15 impressions; LinkedIn personal 13 impressions; LinkedIn Page 2 impressions; Facebook Page 2 views."
   }
  ],
  "campaign": {
@@ -696,7 +606,7 @@
   "platform": "Meta (Facebook & Instagram)",
   "status": "Active",
   "since": "Nov 2, 2026",
-  "windowLabel": "Nov 2 – Nov 15, 2026",
+  "windowLabel": "Nov 2 – Nov 16, 2026",
   "spend": 36.32,
   "impressions": 2811,
   "reach": 2371,
@@ -750,13 +660,13 @@
   "signupClicks": null,
   "contactClicks": null,
   "gsc": {
-   "impressions": 74,
+   "impressions": 76,
    "clicks": 3,
-   "windowLabel": "Oct 18 – Nov 15, 2026",
+   "windowLabel": "Oct 19 – Nov 16, 2026",
    "topQuery": "selenko",
    "topQueryImpressions": 27
   },
-  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 74 impressions · 3 clicks · Oct 18 – Nov 15, 2026 · top query 'selenko' (27 impressions)."
+  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 76 impressions · 3 clicks · Oct 19 – Nov 16, 2026 · top query 'selenko' (27 impressions)."
  },
  "kpis": [
   {
@@ -766,13 +676,13 @@
   },
   {
    "label": "Engagement · latest posts",
-   "value": "5",
-   "sub": "likes, comments, shares &amp; saves · reported on 8 of 11 legs"
+   "value": "1",
+   "sub": "likes, comments, shares &amp; saves · reported on 3 of 5 legs"
   },
   {
    "label": "Followers · reported channels",
-   "value": "2,397",
-   "sub": "only LinkedIn — personal, LinkedIn Selenko business page, Facebook Selenko business page, TikTok, YouTube reports a count"
+   "value": "3,383",
+   "sub": "only Instagram, LinkedIn — personal, LinkedIn Selenko business page, Facebook Selenko business page, TikTok, YouTube reports a count"
   },
   {
    "label": "Ad spend · HVAC campaign",
