@@ -1,6 +1,6 @@
 {
  "updatedLabel": "Thu, Nov 5, 2026 · 7:48 AM ET",
- "postsDateLabel": "Thursday, Nov 19",
+ "postsDateLabel": "Saturday, Nov 21",
  "postsFoot": "Story shares (Instagram/Facebook Stories on Nov 4) are tracked separately and are not credited to these posts' own performance in the ~Nov 13 plan verdict.",
  "channels": [
   {
@@ -8,14 +8,14 @@
    "name": "Instagram",
    "handle": "@serge.osaulenko",
    "color": "#d62976",
-   "followers": 986,
+   "followers": 987,
    "fDelta": null,
-   "followersNote": "986 followers · IG CLI read Nov 20, 2026",
-   "views": 986,
+   "followersNote": "987 followers · IG CLI read Nov 22, 2026",
+   "views": 987,
    "viewsText": null,
-   "viewsLabel": "Followers · IG CLI read Nov 20",
+   "viewsLabel": "Followers · IG CLI read Nov 22",
    "eng": null,
-   "posts": 8,
+   "posts": 7,
    "trend": [
     1828,
     2119,
@@ -38,16 +38,36 @@
     8642,
     8769,
     8942,
-    9157
+    9157,
+    9236,
+    9239
    ],
    "trendLabel": "Views · daily",
    "about": "Reels, the morning setup carousel, and Stories. The carousel and the evening video both land here daily; Facebook copies arrive via a manual Instagram share.",
-   "note": "IG CLI read Nov 20, 2026: 986 followers (-1; Metricool read 987 minutes earlier — both recorded, CLI governs). Post count 550 -> 551 (the Nov 19 Grokbot reel). CLI completed the full 14-day set plus the active story item with NO real 429 (an early stop was a false positive in the sweep's own substring check; the interrupted call's data was valid and the set was completed). Grokbot first read: 148 views (15 follower / 133 non-follower, 89.9% NF), avg watch 5.5s, skip 74.4%. A Nov 19 story item exists (27 views / 21 viewers, all follower) but is NOT annotated to any post — no confirmed share (pause holds).",
+   "note": "IG CLI read Nov 22, 2026: 987 followers (flat; Metricool agrees 987). Post count 553 (+1 Models post Nov 21). Models post first read 25 (all follower). Slate nearly flat: Agent video 228 -> 231 (saves hold at 4), Grokbot 159 -> 160, Whole Loop 101 -> 102, Notebook 177 flat... full slate +0 to +3. No 429. Own stories empty at pull time; story shares paused, no confirmed share.",
    "recent": [
+    {
+     "t": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
+     "when": "Sat, Nov 21",
+     "views": 29,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "Roster carousel: This is what a real estate agent's AI team can look like today (Nov 20)",
+     "when": "Fri, Nov 20",
+     "views": 41,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
     {
      "t": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
      "when": "Thu, Nov 19",
-     "views": 150,
+     "views": 161,
      "likes": 2,
      "comments": 0,
      "shares": 0,
@@ -56,29 +76,11 @@
     {
      "t": "Whole Loop video: One post isn't one job. It's three. (Nov 18)",
      "when": "Wed, Nov 18",
-     "views": 98,
+     "views": 102,
      "likes": 1,
      "comments": 0,
      "shares": 0,
      "saves": 0
-    },
-    {
-     "t": "Social-loop carousel: How do some people post every day (Nov 17)",
-     "when": "Tue, Nov 17",
-     "views": 56,
-     "likes": 2,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Agent video: What Is an AI Agent? Built Piece by Piece (Nov 16)",
-     "when": "Mon, Nov 16",
-     "views": 228,
-     "likes": 3,
-     "comments": 0,
-     "shares": 0,
-     "saves": 4
     }
    ]
   },
@@ -89,21 +91,39 @@
    "color": "#0a66c2",
    "followers": 2090,
    "fDelta": null,
-   "followersNote": "2,090 followers · Metricool read Nov 20, 2026",
+   "followersNote": "2,090 followers · Metricool own-page read Nov 21, 2026 (Summary shows 2,091 on Nov 22)",
    "views": null,
-   "viewsText": "45 posts",
-   "viewsLabel": "Per-post impressions · through Nov 19",
+   "viewsText": "47 posts",
+   "viewsLabel": "Per-post impressions · through Nov 21",
    "eng": null,
-   "posts": 8,
+   "posts": 7,
    "trend": null,
    "trendLabel": null,
    "about": "Lead surface: the morning carousel and the evening video both post here on production days, as two differentiated posts. Native video uploads only. Postiz returns no analytics for the personal profile — figures are read manually in the LinkedIn app.",
-   "note": "Per-post data from Metricool (period Oct 21-Nov 19), backfilled by the analytics lane sweep Nov 20, 2026. Followers 2,090 (+1; moved 2,089 -> 2,090 during the read while syncing, final figure used). New row: Grokbot video (Nov 19) 34 impressions / 9 video views — ties Whole Loop's strongest LinkedIn personal first read. Whole Loop 34 -> 37 impressions. LinkedIn personal via Postiz still empty (Metricool governs).",
+   "note": "Per-post data from Metricool (period Oct 23-Nov 21), backfilled Nov 22, 2026. PAID BOOST: the Nov 16 Agent video row now reads 7,520 impressions / 2,420 video views (was 25 / 12 organic) — Serge's Nov 20 LinkedIn boost ($100 / 2 days, More video views) on that post; paid-assisted, never organic. All other rows flat: Grokbot 42 imp / 11 VV, Whole Loop 46 / 12, roster 34. Models post (Nov 21): no Metricool row yet and Postiz empty — LinkedIn personal not reported this sweep.",
    "recent": [
+    {
+     "t": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
+     "when": "Sat, Nov 21",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Roster carousel: This is what a real estate agent's AI team can look like today (Nov 20)",
+     "when": "Fri, Nov 20",
+     "views": 34,
+     "likes": null,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
      "when": "Thu, Nov 19",
-     "views": 9,
+     "views": 11,
      "likes": null,
      "comments": null,
      "shares": null,
@@ -112,24 +132,6 @@
     {
      "t": "Whole Loop video: One post isn't one job. It's three. (Nov 18)",
      "when": "Wed, Nov 18",
-     "views": 9,
-     "likes": 1,
-     "comments": null,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "Social-loop video: One post isn't one job. It's three. (Nov 17)",
-     "when": "Tue, Nov 17",
-     "views": 26,
-     "likes": null,
-     "comments": null,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "Agent video: What Is an AI Agent? Built Piece by Piece (Nov 16)",
-     "when": "Mon, Nov 16",
      "views": 12,
      "likes": null,
      "comments": null,
@@ -145,12 +147,12 @@
    "color": "#0a66c2",
    "followers": 1,
    "fDelta": null,
-   "followersNote": "1 follower · Metricool brand 2 read Nov 20, 2026",
+   "followersNote": "1 follower · Metricool read Nov 22, 2026",
    "views": 1,
    "viewsText": null,
-   "viewsLabel": "Followers · Metricool read Nov 20",
+   "viewsLabel": "Followers · Metricool read Nov 22",
    "eng": null,
-   "posts": 8,
+   "posts": 7,
    "trend": [
     0,
     0,
@@ -182,12 +184,32 @@
     2,
     0,
     2,
+    0,
+    0,
     0
    ],
    "trendLabel": "Page Views · daily",
    "about": "Mirrors the personal profile's production slate — morning carousel and evening video on production days.",
-   "note": "LinkedIn Selenko Page from Metricool brand 2 (period Oct 21-Nov 19), backfilled Nov 20, 2026. Follower total: Growth box shows 1; the Community detail field showed a syncing dash (not reported there) — recorded as 1 per the Growth figure, as in prior sweeps. New row: Grokbot video (Nov 19) 6 impressions / 1 click / 1 video view — the Page's second-best click row after Roofing (9 clicks). Whole Loop 2 impressions / 3 video views.",
+   "note": "Metricool second brand 'Selenko Page' read Nov 22, 2026: 1 follower (flat). Models post (Nov 21) first read 3 impressions / 2 unique (Metricool + Postiz agree). Roofing post (Nov 12) still the Page's strongest engagement row: 12 impressions, 1 reaction, 2 comments, 9 clicks. All other recent rows 0-6 impressions, flat.",
    "recent": [
+    {
+     "t": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
+     "when": "Sat, Nov 21",
+     "views": 3,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Roster carousel: This is what a real estate agent's AI team can look like today (Nov 20)",
+     "when": "Fri, Nov 20",
+     "views": 1,
+     "likes": 0,
+     "comments": 0,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
      "when": "Thu, Nov 19",
@@ -205,24 +227,6 @@
      "comments": 0,
      "shares": null,
      "saves": null
-    },
-    {
-     "t": "Social-loop video: One post isn't one job. It's three. (Nov 17)",
-     "when": "Tue, Nov 17",
-     "views": 6,
-     "likes": 0,
-     "comments": 0,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "Agent video: What Is an AI Agent? Built Piece by Piece (Nov 16)",
-     "when": "Mon, Nov 16",
-     "views": 3,
-     "likes": 0,
-     "comments": 0,
-     "shares": null,
-     "saves": null
     }
    ]
   },
@@ -233,12 +237,12 @@
    "color": "#1877f2",
    "followers": 5,
    "fDelta": null,
-   "followersNote": "5 followers",
+   "followersNote": "5 followers · Metricool read Nov 22, 2026",
    "views": 221,
    "viewsText": null,
-   "viewsLabel": "Page posts · FB CLI read Nov 19",
+   "viewsLabel": "Followers · Metricool read Nov 22",
    "eng": null,
-   "posts": 8,
+   "posts": 7,
    "trend": [
     0,
     0,
@@ -269,16 +273,37 @@
     221,
     7,
     12,
-    11
+    11,
+    2,
+    1,
+    1
    ],
    "trendLabel": "Page Impressions · daily",
    "about": "Posts arrive via a manual Instagram share (auto-share is unreliable). Page posts are also shared to the Page's own story.",
-   "note": "Facebook CLI lifetime read Nov 19, 2026: 35 Page posts, fully paginated, no 403. Followers 5 (Metricool, unchanged). Whole Loop video (Nov 18) first read 12 views / 10 unique. Social-loop carousel 8 -> 13 views. Agent video 240 -> 241. Reactions/comments/shares a reported 0 on all 35 posts; saves drought unchanged (Recreate's 1 save still the newest).",
+   "note": "FB CLI read Nov 22, 2026: 38 Page posts fully paginated, no 403. Models post (Nov 21) FIRST: 2 views / 2 unique. Every other post flat vs Nov 21 (Agent video 241/219, Second Brain video 238, Recreate 141/127 with the slate's only CLI-shown save at 1). Reactions/comments/shares reported 0 on all 38 posts, unchanged pattern.",
    "recent": [
+    {
+     "t": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
+     "when": "Sat, Nov 21",
+     "views": 2,
+     "likes": 0,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
+    {
+     "t": "Roster carousel: This is what a real estate agent's AI team can look like today (Nov 20)",
+     "when": "Fri, Nov 20",
+     "views": 4,
+     "likes": 0,
+     "comments": null,
+     "shares": null,
+     "saves": null
+    },
     {
      "t": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
      "when": "Thu, Nov 19",
-     "views": 11,
+     "views": 14,
      "likes": 0,
      "comments": null,
      "shares": null,
@@ -292,24 +317,6 @@
      "comments": 0,
      "shares": 0,
      "saves": null
-    },
-    {
-     "t": "Social-loop carousel: How do some people post every day (Nov 17)",
-     "when": "Tue, Nov 17",
-     "views": 13,
-     "likes": 0,
-     "comments": null,
-     "shares": null,
-     "saves": null
-    },
-    {
-     "t": "Agent video: What Is an AI Agent? Built Piece by Piece (Nov 16)",
-     "when": "Mon, Nov 16",
-     "views": 241,
-     "likes": 0,
-     "comments": null,
-     "shares": null,
-     "saves": null
     }
    ]
   },
@@ -320,10 +327,10 @@
    "color": "#8a8f98",
    "followers": 268,
    "fDelta": null,
-   "followersNote": "268 followers · Metricool read Nov 20, 2026",
+   "followersNote": "268 followers · Metricool read Nov 22, 2026",
    "views": 268,
    "viewsText": null,
-   "viewsLabel": "Followers · Metricool read Nov 20",
+   "viewsLabel": "Followers · Metricool read Nov 22",
    "eng": null,
    "posts": 5,
    "trend": [
@@ -348,16 +355,36 @@
     5838,
     5846,
     5869,
-    5881
+    5881,
+    5956,
+    6020
    ],
    "trendLabel": "Account Views (Postiz) · daily",
    "about": "Evening videos only, posted as direct posts so a chosen cover frame can be set from the posting sheet's timestamp.",
-   "note": "Followers 268 (-1, Metricool as shown; no cause attributed). Grokbot video (Nov 19) first read 99 views / 1 like (Postiz; Metricool 97 under its 1-2 day lag note). Whole Loop video 169 -> 190 (+21), likes 3 -> 6, first share. Recreate 719 -> 720, Short 01 settled at 2,857, Second Brain 608 — all PAID-ASSISTED Promote tails, never organic.",
+   "note": "Followers 268 (flat, Metricool). NEW Models post (Nov 21, 9:19 PM ET) first read 154 views / 1 like (Postiz live; Metricool partial-window 115). Roster 111 -> 128 (Postiz; Metricool 125), Grokbot 101 -> 102, Whole Loop 191 -> 192. Promote-paid rows unchanged in substance: Short 01 2,860, Recreate 721, Second Brain video 608 (all PAID-ASSISTED, never organic).",
    "recent": [
+    {
+     "t": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
+     "when": "Sat, Nov 21",
+     "views": 166,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": null
+    },
+    {
+     "t": "Roster carousel: This is what a real estate agent's AI team can look like today (Nov 20)",
+     "when": "Fri, Nov 20",
+     "views": 128,
+     "likes": 0,
+     "comments": 0,
+     "shares": 2,
+     "saves": null
+    },
     {
      "t": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
      "when": "Thu, Nov 19",
-     "views": 100,
+     "views": 103,
      "likes": 1,
      "comments": 0,
      "shares": 0,
@@ -366,28 +393,10 @@
     {
      "t": "Whole Loop video: One post isn't one job. It's three. (Nov 18)",
      "when": "Wed, Nov 18",
-     "views": 190,
+     "views": 192,
      "likes": 6,
      "comments": 0,
      "shares": 1,
-     "saves": null
-    },
-    {
-     "t": "Agent video: What Is an AI Agent? Built Piece by Piece (Nov 16)",
-     "when": "Mon, Nov 16",
-     "views": 75,
-     "likes": 1,
-     "comments": 1,
-     "shares": 0,
-     "saves": null
-    },
-    {
-     "t": "Listing video: A Listing Video With Your Face On It, And You Never Filmed (Nov 14)",
-     "when": "Sat, Nov 14",
-     "views": 64,
-     "likes": 1,
-     "comments": 1,
-     "shares": 0,
      "saves": null
     }
    ]
@@ -402,9 +411,9 @@
    "followersNote": "34 subscribers · +5 in last 28 days",
    "views": 34,
    "viewsText": null,
-   "viewsLabel": "Subscribers · Studio read Nov 20",
+   "viewsLabel": "Subscribers · Studio read Nov 22",
    "eng": null,
-   "posts": 5,
+   "posts": 3,
    "trend": [
     0,
     0,
@@ -434,37 +443,39 @@
     87,
     12,
     5,
-    126
+    126,
+    92,
+    22
    ],
    "trendLabel": "Estimated Minutes Watched · daily",
    "about": "Shorts post through YouTube Studio while the Postiz connection is down; the 'Selenko Uploads' Google Cloud route is in setup. Designed covers are set manually in Studio.",
-   "note": "YouTube Studio read Nov 20, 2026 (~5:52 AM ET), Advanced mode lifetime through Nov 19: 34 subscribers (unchanged). Lifetime 15,613 views / 124.3 watch hours. Grokbot video (Nov 19) first read 60 views thru Nov 19 (61 on overview card), 48.8% viewed — clean fields, no Shorts anomaly; subs gained shown as dash = not reported. Whole Loop video 55 -> 95 (+40, first full day). No new viewer comments since Nov 19 5:37 AM; held queue empty.",
+   "note": "YouTube Studio read Nov 22, 2026, Advanced mode lifetime through Nov 21: 34 subscribers (unchanged). Whole Loop 104 -> 114 (+10), Notebook 325 -> 331 (+6), Short 01 196 -> 201 (Advanced), Recreate 307 -> 308, Agent video 36 -> 37; Grokbot flat at 71. No new videos Nov 20-21. NO new viewer comments since Nov 21 5:37 AM ET; held queue empty. Shorts duration anomalies flagged unreliable on Short 01, Listing, Agent, Whole Loop rows.",
    "recent": [
     {
      "t": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
      "when": "Thu, Nov 19",
-     "views": 60,
-     "likes": 1,
-     "comments": 0,
+     "views": 71,
+     "likes": 2,
+     "comments": 1,
      "shares": 0,
      "saves": null
     },
     {
      "t": "Whole Loop video: One post isn't one job. It's three. (Nov 18)",
      "when": "Wed, Nov 18",
-     "views": 95,
+     "views": 114,
      "likes": 2,
-     "comments": 1,
-     "shares": 1,
+     "comments": null,
+     "shares": null,
      "saves": null
     },
     {
      "t": "Agent video: What Is an AI Agent? Built Piece by Piece (Nov 16)",
      "when": "Mon, Nov 16",
-     "views": 36,
-     "likes": 0,
-     "comments": 1,
-     "shares": 1,
+     "views": 37,
+     "likes": null,
+     "comments": null,
+     "shares": null,
      "saves": null
     },
     {
@@ -486,12 +497,13 @@
    "followers": null,
    "fDelta": null,
    "followersNote": null,
-   "views": 548,
+   "views": 592,
    "viewsText": null,
-   "viewsLabel": "Impressions · Nov 20",
+   "viewsLabel": "Impressions · Nov 22",
    "eng": null,
-   "posts": 8,
+   "posts": 7,
    "trend": [
+    0,
     0,
     19,
     19,
@@ -515,16 +527,36 @@
     492,
     514,
     526,
-    548
+    548,
+    564,
+    592
    ],
    "trendLabel": "Impressions · daily",
    "about": "Evening videos. No thumbnail support through Postiz — the video's own frame carries the cover.",
-   "note": "Postiz channel level (30 day query): Impressions 548 on Nov 20, recorded exactly as reported (Postiz reported 526 on Nov 19; this window total can move). Likes 4 and Replies 3 on Nov 20; Retweets and Quotes 0, Bookmarks 1 on Nov 20.",
+   "note": "Postiz channel level (30 day query): Impressions 592 on Nov 22, recorded exactly as reported (Postiz reported 564 on Nov 21; this window total can move). Likes 5 and Replies 3 on Nov 22; Retweets and Quotes 0, Bookmarks 1 on Nov 22.",
    "recent": [
+    {
+     "t": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
+     "when": "Sat, Nov 21",
+     "views": 18,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
+    {
+     "t": "Roster carousel: This is what a real estate agent's AI team can look like today (Nov 20)",
+     "when": "Fri, Nov 20",
+     "views": 10,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0
+    },
     {
      "t": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
      "when": "Thu, Nov 19",
-     "views": 17,
+     "views": 25,
      "likes": 0,
      "comments": 1,
      "shares": 0,
@@ -533,26 +565,8 @@
     {
      "t": "Whole Loop video: One post isn't one job. It's three. (Nov 18)",
      "when": "Wed, Nov 18",
-     "views": 6,
+     "views": 7,
      "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Social-loop video: One post isn't one job. It's three. (Nov 17)",
-     "when": "Tue, Nov 17",
-     "views": 16,
-     "likes": 0,
-     "comments": 0,
-     "shares": 0,
-     "saves": 0
-    },
-    {
-     "t": "Agent video: What Is an AI Agent? Built Piece by Piece (Nov 16)",
-     "when": "Mon, Nov 16",
-     "views": 16,
-     "likes": 1,
      "comments": 0,
      "shares": 0,
      "saves": 0
@@ -562,100 +576,84 @@
  ],
  "posts": [
   {
-   "id": "s45-222",
+   "id": "s47-241",
    "time": null,
-   "title": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
+   "title": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
    "channel": "instagram",
    "channelLabel": "Instagram",
-   "format": "video",
-   "views": 150,
+   "format": "photo",
+   "views": 29,
    "impressions": null,
-   "likes": 2,
+   "likes": 1,
    "comments": 0,
    "shares": 0,
    "saves": 0,
-   "url": "https://www.instagram.com/reel/Df7ohMEAWYa/",
-   "note": "Grokbot video, posted Nov 19, 2026, 12:37 PM ET via Postiz on seven legs plus YouTube (Studio: youtube.com/shorts/jXbw6DuGkIE, Public). Real footage (Serge's own CapCut edit) — no AI disclosure, no music. Story shares PAUSED: a Nov 19 story exists on both IG (27 views / 21 viewers) and FB (29 / 25) posted ~5 min after this reel, but Serge has not confirmed a share for this post, so it is NOT annotated story-assisted. First reads ~17h (Nov 20 sweep): IG 148 (15 follower / 133 non-follower), TikTok 99, YouTube 60 thru Nov 19, LinkedIn personal 34 impressions / 9 video views, FB personal FB 41 / "
+   "url": "https://www.instagram.com/p/DgBt1GejVHY/",
+   "note": "Models post, posted Nov 21, 2026, 9:19 PM ET via Postiz on seven legs (no YouTube leg). First reads Nov 22 sweep (~8.3h): FB personal FB 549 / 396 viewers, 98.5% non-follower — strongest FB personal first read in the slate; TikTok 154 views / 1 like (Postiz; Metricool partial-window 115); IG personal 25 (all follower, CLI); X 18 impressions / 1 like; LinkedIn Page 3 impressions; FB Page 2 views / 2 unique (FB CLI); LinkedIn personal not reported (Postiz empty, Metricool row not yet present). selenko.ai IG leg: 3 views / 3 reach / 1 like (Postiz). Story shares PAUSED — no confirmed share, not s"
   },
   {
-   "id": "s45-224",
+   "id": "s47-242",
    "time": null,
-   "title": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
-   "channel": "youtube",
-   "channelLabel": "YouTube",
-   "format": "video",
-   "views": 60,
+   "title": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
+   "channel": "tiktok",
+   "channelLabel": "TikTok",
+   "format": "photo",
+   "views": 166,
    "impressions": null,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "url": "https://youtube.com/shorts/jXbw6DuGkIE",
-   "note": "Grokbot video, posted Nov 19, 2026, 12:37 PM ET via Postiz on seven legs plus YouTube (Studio: youtube.com/shorts/jXbw6DuGkIE, Public). Real footage (Serge's own CapCut edit) — no AI disclosure, no music. Story shares PAUSED: a Nov 19 story exists on both IG (27 views / 21 viewers) and FB (29 / 25) posted ~5 min after this reel, but Serge has not confirmed a share for this post, so it is NOT annotated story-assisted. First reads ~17h (Nov 20 sweep): IG 148 (15 follower / 133 non-follower), TikTok 99, YouTube 60 thru Nov 19, LinkedIn personal 34 impressions / 9 video views, FB personal FB 41 / "
+   "url": "https://www.tiktok.com/@serge.osaulenko/photo/7710814590270967054",
+   "note": "Models post, posted Nov 21, 2026, 9:19 PM ET via Postiz on seven legs (no YouTube leg). First reads Nov 22 sweep (~8.3h): FB personal FB 549 / 396 viewers, 98.5% non-follower — strongest FB personal first read in the slate; TikTok 154 views / 1 like (Postiz; Metricool partial-window 115); IG personal 25 (all follower, CLI); X 18 impressions / 1 like; LinkedIn Page 3 impressions; FB Page 2 views / 2 unique (FB CLI); LinkedIn personal not reported (Postiz empty, Metricool row not yet present). selenko.ai IG leg: 3 views / 3 reach / 1 like (Postiz). Story shares PAUSED — no confirmed share, not s"
   },
   {
-   "id": "s45-225",
+   "id": "s47-244",
    "time": null,
-   "title": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
-   "channel": "linkedin",
-   "channelLabel": "LinkedIn",
-   "format": "video",
-   "views": 9,
-   "impressions": 34,
-   "likes": null,
-   "comments": null,
-   "shares": null,
-   "saves": null,
-   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529236489440886786",
-   "note": "Grokbot video, posted Nov 19, 2026, 12:37 PM ET via Postiz on seven legs plus YouTube (Studio: youtube.com/shorts/jXbw6DuGkIE, Public). Real footage (Serge's own CapCut edit) — no AI disclosure, no music. Story shares PAUSED: a Nov 19 story exists on both IG (27 views / 21 viewers) and FB (29 / 25) posted ~5 min after this reel, but Serge has not confirmed a share for this post, so it is NOT annotated story-assisted. First reads ~17h (Nov 20 sweep): IG 148 (15 follower / 133 non-follower), TikTok 99, YouTube 60 thru Nov 19, LinkedIn personal 34 impressions / 9 video views, FB personal FB 41 / "
-  },
-  {
-   "id": "s45-226",
-   "time": null,
-   "title": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
+   "title": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
    "channel": "linkedin-page",
    "channelLabel": "LinkedIn Page",
-   "format": "video",
-   "views": 1,
-   "impressions": 6,
+   "format": "photo",
+   "views": null,
+   "impressions": 3,
    "likes": 0,
    "comments": 0,
-   "shares": null,
+   "shares": 0,
    "saves": null,
-   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529236489365331969",
-   "note": "Grokbot video, posted Nov 19, 2026, 12:37 PM ET via Postiz on seven legs plus YouTube (Studio: youtube.com/shorts/jXbw6DuGkIE, Public). Real footage (Serge's own CapCut edit) — no AI disclosure, no music. Story shares PAUSED: a Nov 19 story exists on both IG (27 views / 21 viewers) and FB (29 / 25) posted ~5 min after this reel, but Serge has not confirmed a share for this post, so it is NOT annotated story-assisted. First reads ~17h (Nov 20 sweep): IG 148 (15 follower / 133 non-follower), TikTok 99, YouTube 60 thru Nov 19, LinkedIn personal 34 impressions / 9 video views, FB personal FB 41 / "
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7530092615812349952",
+   "note": "Models post, posted Nov 21, 2026, 9:19 PM ET via Postiz on seven legs (no YouTube leg). First reads Nov 22 sweep (~8.3h): FB personal FB 549 / 396 viewers, 98.5% non-follower — strongest FB personal first read in the slate; TikTok 154 views / 1 like (Postiz; Metricool partial-window 115); IG personal 25 (all follower, CLI); X 18 impressions / 1 like; LinkedIn Page 3 impressions; FB Page 2 views / 2 unique (FB CLI); LinkedIn personal not reported (Postiz empty, Metricool row not yet present). selenko.ai IG leg: 3 views / 3 reach / 1 like (Postiz). Story shares PAUSED — no confirmed share, not s"
   },
   {
-   "id": "s45-227",
+   "id": "s47-245",
    "time": null,
-   "title": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
+   "title": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
    "channel": "facebook-page",
    "channelLabel": "Facebook Page",
-   "format": "video",
-   "views": 11,
-   "impressions": null,
+   "format": "photo",
+   "views": 2,
+   "impressions": 2,
    "likes": 0,
    "comments": null,
    "shares": null,
    "saves": null,
-   "url": "https://www.facebook.com/reel/1468267738587390",
-   "note": "Grokbot video, posted Nov 19, 2026, 12:37 PM ET via Postiz on seven legs plus YouTube (Studio: youtube.com/shorts/jXbw6DuGkIE, Public). Real footage (Serge's own CapCut edit) — no AI disclosure, no music. Story shares PAUSED: a Nov 19 story exists on both IG (27 views / 21 viewers) and FB (29 / 25) posted ~5 min after this reel, but Serge has not confirmed a share for this post, so it is NOT annotated story-assisted. First reads ~17h (Nov 20 sweep): IG 148 (15 follower / 133 non-follower), TikTok 99, YouTube 60 thru Nov 19, LinkedIn personal 34 impressions / 9 video views, FB personal FB 41 / "
+   "url": "https://www.facebook.com/122132259818882149/posts/122135419412882149",
+   "note": "Models post, posted Nov 21, 2026, 9:19 PM ET via Postiz on seven legs (no YouTube leg). First reads Nov 22 sweep (~8.3h): FB personal FB 549 / 396 viewers, 98.5% non-follower — strongest FB personal first read in the slate; TikTok 154 views / 1 like (Postiz; Metricool partial-window 115); IG personal 25 (all follower, CLI); X 18 impressions / 1 like; LinkedIn Page 3 impressions; FB Page 2 views / 2 unique (FB CLI); LinkedIn personal not reported (Postiz empty, Metricool row not yet present). selenko.ai IG leg: 3 views / 3 reach / 1 like (Postiz). Story shares PAUSED — no confirmed share, not s"
   },
   {
-   "id": "s45-228",
+   "id": "s47-246",
    "time": null,
-   "title": "Grokbot video: Do You Want AI Agents to Run Your Real Estate Business? (Nov 19)",
+   "title": "Models post: Every few months a new model ships and everyone scrambles to switch (Nov 21)",
    "channel": "x",
    "channelLabel": "X",
-   "format": "video",
+   "format": "photo",
    "views": null,
-   "impressions": 17,
-   "likes": 0,
-   "comments": 1,
+   "impressions": 18,
+   "likes": 1,
+   "comments": 0,
    "shares": 0,
-   "saves": 1,
-   "url": "https://twitter.com/sergeosaulenko/status/2123470795238203824",
-   "note": "Grokbot video, posted Nov 19, 2026, 12:37 PM ET via Postiz on seven legs plus YouTube (Studio: youtube.com/shorts/jXbw6DuGkIE, Public). Real footage (Serge's own CapCut edit) — no AI disclosure, no music. Story shares PAUSED: a Nov 19 story exists on both IG (27 views / 21 viewers) and FB (29 / 25) posted ~5 min after this reel, but Serge has not confirmed a share for this post, so it is NOT annotated story-assisted. First reads ~17h (Nov 20 sweep): IG 148 (15 follower / 133 non-follower), TikTok 99, YouTube 60 thru Nov 19, LinkedIn personal 34 impressions / 9 video views, FB personal FB 41 / "
+   "saves": 0,
+   "url": "https://twitter.com/sergeosaulenko/status/2124326839963230211",
+   "note": "Models post, posted Nov 21, 2026, 9:19 PM ET via Postiz on seven legs (no YouTube leg). First reads Nov 22 sweep (~8.3h): FB personal FB 549 / 396 viewers, 98.5% non-follower — strongest FB personal first read in the slate; TikTok 154 views / 1 like (Postiz; Metricool partial-window 115); IG personal 25 (all follower, CLI); X 18 impressions / 1 like; LinkedIn Page 3 impressions; FB Page 2 views / 2 unique (FB CLI); LinkedIn personal not reported (Postiz empty, Metricool row not yet present). selenko.ai IG leg: 3 views / 3 reach / 1 like (Postiz). Story shares PAUSED — no confirmed share, not s"
   }
  ],
  "campaign": {
@@ -663,7 +661,7 @@
   "platform": "Meta (Facebook & Instagram)",
   "status": "Active",
   "since": "Nov 2, 2026",
-  "windowLabel": "Nov 2 – Nov 20, 2026",
+  "windowLabel": "Nov 2 – Nov 22, 2026",
   "spend": 36.32,
   "impressions": 2811,
   "reach": 2371,
@@ -717,13 +715,13 @@
   "signupClicks": null,
   "contactClicks": null,
   "gsc": {
-   "impressions": 75,
+   "impressions": 74,
    "clicks": 3,
-   "windowLabel": "Oct 23 – Nov 20, 2026",
+   "windowLabel": "Oct 25 – Nov 22, 2026",
    "topQuery": "selenko",
    "topQueryImpressions": 25
   },
-  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 75 impressions · 3 clicks · Oct 23 – Nov 20, 2026 · top query 'selenko' (25 impressions)."
+  "note": "Main selenko.com GA4 is stale — the current site build carries no GA4 tag (50 historical sessions, Aug 1 – Nov 5). The Trades property above is the live one. Search Console: 74 impressions · 3 clicks · Oct 25 – Nov 22, 2026 · top query 'selenko' (25 impressions)."
  },
  "kpis": [
   {
@@ -733,12 +731,12 @@
   },
   {
    "label": "Engagement · latest posts",
-   "value": "5",
-   "sub": "likes, comments, shares &amp; saves · reported on 5 of 6 legs"
+   "value": "3",
+   "sub": "likes, comments, shares &amp; saves · reported on 5 of 5 legs"
   },
   {
    "label": "Followers · reported channels",
-   "value": "3,384",
+   "value": "3,385",
    "sub": "only Instagram, LinkedIn — personal, LinkedIn Selenko business page, Facebook Selenko business page, TikTok, YouTube reports a count"
   },
   {
